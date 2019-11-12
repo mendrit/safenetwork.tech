@@ -1,28 +1,28 @@
 export default {
   banner: {
-    pageTitle: 'The ~~Im~~Possible Network',
-    pageDesc: `12 years of research and development is coming to fruition as we put together the final building blocks of what some said was impossible: Secure Access For Everyone.`,
+    pageTitle: ' ~~Ne~~skutečná síť',
+    pageDesc: `12 let výzkumu a vývoje přechází do fáze spojení všech samostatných dílů toho, o čem mnozí říkali že je neuskutečnitelné: Safe Access For Everyone-Bezpečný přístup pro každého. `,
     latestUpdate: {
-      overline: 'Latest Update',
-      date: '29 August 2019',
+      overline: 'Poslední Update',
+      date: '29 Srpen 2019',
       title: 'Vault Phase 1',
-      para: `The final piece of the puzzle is complete and we now have the SAFE CLI, SAFE Client Libs, vault and SAFE Browser.`,
+      para: `Poslední díly skládačky jsou hotovy a my teď máme SAFE CLI, SAFE Client Libs, Vault a SAFE Prohlížeč.`,
        CTA: {
-         name: 'SafeNetwork Forum',
+         name: 'SafeNetwork Fórum',
          url: 'https://safenetforum.org/t/new-release-vault-phase-1-real-vault/29712'
        }
     }
   },
   subscribe: {
-    title: 'Subscribe for updates:'
+    title: 'Chci odebírat novinky:'
   },
   releases: {
     release1: {
-      overline: 'Live Now',
-      title: 'Phase 1 Vaults',
+      overline: 'Právě běží',
+      title: 'Vault Phase 1',
       para:[
-        `This Phase 1 Vault release is primarily to showcase the Network features to Consumers (people using the Network to browse, share data, etc.) and Creators (developers or those publishing content).  It allows users to test out features such as SAFE CLI and SAFE Client Libs, as well as introducing the new data types.`,
-        'It’s easy to use. Just download a Vault binary which will run locally on your computer. Details and links can be found on this [Forum post](https://safenetforum.org/t/new-release-vault-phase-1-real-vault/29712)'
+        `Tato fáze je primárně ukázka možností sítě pro uživatele (lidé používající síť k brouvzdání, sdílení, atd.) a tvůrce (vývojáře nebo autory obsahu).  Je jim umožněno vyzkoušet SAFE CLI a SAFE Client Libs, základní možnosti peněženky, ale také nové data typy v síti.`,
+        'Vyzkoušení je jednoduché. Stačí stáhnout Vault binary, které poběží lokálně na tvém počítači. Detaily a odkaz na stažení najdeš zde [Fórum odkaz](https://safenetforum.org/t/new-release-vault-phase-1-real-vault/29712)'
       ],
       // accordion: {
       //   header: [
@@ -35,47 +35,47 @@ export default {
       // }
     },
     release2: {
-      overline: 'Upcoming Milestone',
-      title: 'SAFE Fleming Network',
-      para: ['The next major milestone for the SAFE Network. Whilst the The Shared Vault Network will continue to function, this will be a standalone Network that will enable individuals to run Vaults - decentralised storage from home computers. The release of Fleming will be notable for many reasons, not least the fact that with data storage, the Network will now also contain Test Safecoin.'],
+      overline: 'Nadcházející milník',
+      title: 'Fleming',
+      para: ['Blížící se další milník SAFE Network. Zatímco Vault Phase 1 v předchozí fázi běžel pouze na počítači, se spuštěním Fleming se propojí se všemi ostatními Vault v síti. Umožní ukládat soubory, zabezpečenou komunikaci, otestuje platební systém včetně testovací měny SafeCoin.'],
       accordion: {
         header: [
-          'Fleming Feature',
-          'Description',
-          'Status'
+          'Fleming vlastnosti',
+          'Popis',
+          'Stav'
         ],
         items: [
           {
-            feature: 'Self-Authentication',
-            desc: 'The ability to log into a decentralised network without the permission or existence of a third party',
-            status: 'Complete',
+            feature: 'Osobní autentikátor',
+            desc: 'Umožní se přihásit do decentralizované sítě bez svolení nebo existence třetí strany',
+            status: 'Hotovo',
             para: [
-              'MaidSafe invented the technology that lets someone log into a decentralised network securely without requiring the involvement of a third party. The Shared Vault Network is the only place in the world today that you can see this in action.'
+              'MaidSafe vyvinuli technologii, která umožní komukoli se přihlásit bezpečně do decentralizované sítě, bez potřeby ověření třetí stranou. Testovací Alpha 2 síť je jediná na celém světě, kde podobný systém funguje. *Do startu sítě Fleming je od Listopadu 2019 testovací síť Alpha 2 vypnuta'
             ],
             // CTA: {
             //   name: 'Read More',
             //   url: 'https://safenetwork.tech/roadmap/#self-authentication'
             // },
           }, {
-            feature: 'Self-Encryption',
-            desc: 'Data is encrypted on your computer before being stored on the Network: no keys or passwords ever leave your machine',
-            status: 'Complete',
+            feature: 'Auto-šifrování',
+            desc: 'Data jsou zašifrována v počítači ještě před uložením v síti: žádné klíče ani hesla neopustí tvé zařízení ',
+            status: 'Hotovo',
             para: [
-              'Invented by MaidSafe, this is the process by which any file to be stored in the Network is first broken into chunks, hashed, and then encrypted. These chunks are then themselves encrypted using the hash of another chunk from the same file.'
+              'Vyvinuto v MaidSafe, toto je proces při kterém každý soubor před uložením v síti, je nejdříve rozdělen na kousky (chunks), zhašován a zašifrován. Tyto kousky jsou poté samy zašifrovány pomocí haše dalšího kousku ze stejného souboru.'
             ],
             video: {
               url: 'https://s3.eu-west-2.amazonaws.com/ms-marketing/website-videos/Self+Encryption+on+the+SAFE+Network.mp4',
-              caption: 'Self-Encryption explained'
+              caption: 'Auto-šifrování s vysvětlením'
             }
           }, {
-            feature: 'Disjoint Sections',
-            desc: 'Otherwise known as Sharding, this allows the Network to scale by splitting responsibilities for specific Network functions.',
-            status: 'Complete',
+            feature: 'Disjoint sekce',
+            desc: 'Neboli sharding-škálování, umožní síti rozdělit zátěž a odpovědnost dle specifických funkcí sítě a zvýšit tak efektivitu.',
+            status: 'Hotovo',
             para: [
-              'Ensures that the Network can scale by managing the responsibilities and locations of each node without requiring any human intervention. This also acts as a security measure to ensure that an attacker cannot choose their location or responsibilities.'
+              'Zajistí, aby síť se mohla škálovat řízením odpovědnosti každého uzlu, bez potřeby lidského zásahu. Také slouží k zajištění bezpečnosti, kdy si útočník nemůže vybrat místo a cíl útoku.'
             ],
             CTA: {
-              name: 'Read More',
+              name: 'Podrobnosti',
               url: 'https://safenetforum.org/t/step-by-step-the-road-to-fleming-6-disjoint-sections/28530'
             },
           }, {
