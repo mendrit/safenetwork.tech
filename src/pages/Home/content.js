@@ -1,7 +1,7 @@
 export default {
   banner: {
     title: `Budujeme \nNový Internet`,
-    desc: '[Svoboda](/#freedom) projevu, [kontrola](/#control) osobních dat, [soukromá a bezpečná](/#privacy) komunikace; a od základu nová [ekonomika](/#economy). Vítejte v Safe Network.',
+    desc: '[Svoboda](/#freedom) projevu, [kontrola](/#control) osobních dat, [soukromá a bezpečná](/#privacy) komunikace; a od základu nová [ekonomika](/#economy). Vítejte v SAFE Network.',
     aside: {
       para: 'Použitím neobsazeného místa na disku a volné kapacity vašeho připojení, převezmeme web z korporátních serverů, mimo kontrolu vlády, zpět pod kontrolu samotných uživatelů.',
       CTA: {
@@ -13,8 +13,8 @@ export default {
   freedom: {
     title: 'Decentralizovaný & Autonomní: \nSvoboda vyjadřování od základu.',
     para: [
-      'Everyone should be able to collaborate freely and share ideas; free and unrestricted access to information for everyone around the world.',
-      'That’s why we’ve design a system like no other: An autonomous network that runs itself, distributed across the globe, that can’t be shut down, controlled, or censored.'
+      'Kdokoli by měl mít možnost spolupracovat, sdílet své nápady; neblokovaný přístup k informacím pro každého na celém světě.',
+      'Proto tvoříme systém jako žádný jiný: Autonomní síť bez serverů, rozmístěna po celé planetě, bez možnosti zrušení, kontroly, nebo cenzury.'
     ],
     CTA: {
       name: 'What is an Autonomous Network?',
