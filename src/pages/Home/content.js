@@ -17,114 +17,114 @@ export default {
       'Proto tvoříme systém jako žádný jiný: Autonomní síť bez serverů, rozmístěna po celé planetě, bez možnosti zrušení, kontroly, nebo cenzury.'
     ],
     CTA: {
-      name: 'What is an Autonomous Network?',
+      name: 'Co je to Automní síť?',
       url: '/faq/#what-is-an-autonomous-network'
     },
     founderQuote: {
-      para: `"Fixing the Internet isn't optional, and now there's a solution we can all be part of."`,
-      by: 'David Irvine — Founder'
+      para: `"Oprava Internetu nevede k požadovanému výsledku, a nyní je zde řešení, kterého jsme součástí."`,
+      by: 'David Irvine — Zakladatel'
     },
     aside1: {
-      title: 'All information is equal',
-      para: 'All data on the network is treated the same, and everyone has equal and free access.  Net neutrality comes as standard.'
+      title: 'Všechna data jsou si rovna',
+      para: 'Se všemi daty v síti se zachází stejně a každý má rovnocenný a zdarma přístup. Síťová neutralita jako standard.'
     },
     aside2: {
-      title: 'Can’t be censored or shut down',
-      para: 'Because it’s autonomous, the SAFE Network can’t be turned off, blocked or controlled. It belongs to humanity.'
+      title: 'Bez cenzury a vynuceného vypnutí',
+      para: 'Protože je síť autonomní, SAFE Network nemůže nikdo vypnout, blokovat, nebo kontrolovat. Patří lidstvu.'
     }
   },
   privacy: {
-    title: 'Total Privacy, Absolute Security.',
+    title: 'Naprosté soukromí, absolutní bezpečnost.',
     para: [
-      'Privacy and security should be available to everyone, not just those with deep pockets.',
-      'That’s why the SAFE Network encrypts all data by default, automatically splitting it into many pieces which constantly move to locations around the globe that cannot be traced. And your access to them is untraceable too.',
-      ' No more hacked data, no more stolen passwords, no more eavesdropping. Private. Secure. Anonymous.'
+      'Soukromí a bezpečnost by měla být dostupná pro každého, ne jen pro ty co si to můžou dovolit.',
+      'To je důvod proč SAFE Network šifruje všechna data okamžitě, automaticky je rozdělí na menší kousky, které mění svou polohu po celém světě a nemohou být nadále sledována. A přístup k nim také nelze sledovat.',
+      ' Žádné další krádeže dat a hesel, už žádné odpouslouchání. Soukromně. Bezpečně. Anonymně.'
     ],
     CTA: {
-      name: 'How does it work?',
+      name: 'Jak to funguje?',
       url: '/how-it-works/'
     },
     quote: {
-      para: 'When we’re given the tools to communicate privately and securely we gain the freedom to collaborate and innovate all as one.'
+      para: 'Pokud dostaneme aplikace k soukromé a bezpečné komunikaci, získáme svobodu ke spolupráci a inovaci jako celek.'
     },
     aside1: {
-      title: 'Browse and access anonymously',
-      para: 'On the SAFE Network, you are free to browse and download completely anonymously, from anywhere in the world. No account necessary.'
+      title: 'Anonymní prohledávání a přístup',
+      para: 'V SAFE Network, lze prohlížet a stahovat anonymně, odkudkoli z celého světa. Bez zakládání účtu.'
     }
   },
   data: {
-    title: 'Complete Control of Your Data',
+    title: 'Absolutní kontrola Vašich dat',
     para: [
-      'The SAFE Network turns the current data ownership model on its head.',
-      'Gone are the days of your personal information being stored on corporate servers. Self Authentication means you are in complete control over your data: it resides with you. Grant permission for apps to connect to it, and no company or third party ever has access. ',
+      'SAFE Network převrací dosavadní způsob vlastnění dat vzhůru nohama.',
+      'Pryč jsou dny, kdy Vaše osobní údaje a data byly uloženy na korporátních serverech. Osobní autentizátor znamená, mít kompletní kontrolu nad svými daty: je tam kde vy. Udělí aplikacím povolení ke spojení a žádné společnosti, nebo třetí straně není umožněn přístup. ',
     ],
     CTA: {
-      name: 'Read more about Self Authentication',
+      name: 'Zjisti více o Osobním autentizátoru',
       url: 'faq/#what-is-self-authentication'
     },
     aside1: {
-      title: 'Pay Once, Store Forever',
+      title: 'Plať jednou, uchovej navždy',
       para: [
-        'Upload your data and have it stored securely forever. Get free unrestricted access from any connected device around the world.',
-        'You’ll pay a minimal, one-time, upload charge but you’ll get permanent secure backups with no more monthly fees.'
+        'Nahraná data jsou bezpečně uložena navždy. Získej neomezený přístup z jakéhokoli zařízení s připojením po celém světě.',
+        'Zaplatíš jednou za nahrání dat a získáš zabezpečenou zálohu na neomezenou dobu, bez měsíčních poplatků a omezení dat.'
       ]
     },
     aside2: {
-      title: 'One Password. For real this time.',
+      title: 'Jedno heslo. Skutečně.',
       para: [
-        'All apps are securely accessed from the single password used to create your account. Say goodbye to that password manager.',
+        'Na všechny aplikace je zabezpečený přístup díky jednomu heslu, použitému při založení tvého účtu. Správce hesel už není potřeba.',
       ]
     },
     aside3: {
-      title: 'Data Portability',
+      title: 'Přenositelnost souborů',
       para: [
-        'Being in complete control means you can quickly and easily move your data between apps and services. Mix and match to meet your needs, and leave no data behind.',
+        'Mít kompletní kontrolu znamená, že jednoduše a rychle lze přesouvat data mezi aplikacemi a službami, přesně podle svých potřeb a nezanechat za sebou žádné stopy. ',
       ]
     },
     aside4: {
-      title: 'Dude, where’s my blockchain?',
+      title: 'Ale kde je ten Blockchain?',
       para: [
-        'No blockchain means endless scalability and instant transactions at network speed. Exactly what a global data network needs.',
+        'Žádný blockchain znamená mít okamžité transakce, mnohem výšší kapacitu a rychlost sítě. Přesně to, co celosvětová síť potřebuje.',
       ],
       CTA: {
-        name: 'Read more about the design',
+        name: 'Zjisti víc o projektu',
         url: '/how-it-works/'
       }
     },
   },
   economy: {
-    title: 'The New Digital Economy',
+    title: 'Nová digitální ekonomika',
     para: [
-      'Welcome to the new economy where you no longer pay for your digital life with your personal data.  Instead, you’ll use Safecoin, a crypto currency that is integrated into and distributed entirely by the network.',
-      'Users are compensated for providing their resources and can use this to pay developers to use their apps in a virtuous and self sustaining cycle.',
-      'SAFE is a network where wealth is shared based on the value that everyone provides.'
+      'Vítej v nové ekonomice, kde za svůj digitální život neplatíš svými osobními daty.  Místo toho budeš používat SafeCoin -kryptoměnu, která je kompletně integrována a distribuována sítí.',
+      'Uživatelé jsou odměněni za sdílení svých zdrojů a můžou tak přispět developerům svých aplikací ve virtuálním soběstačném cyklu.',
+      'SAFE je síť, kde bohatství je sdíleno na základě toho, jak velký užitek každý přináší.'
     ],
     CTA: {
-      name: 'Read more about Safecoin',
+      name: 'Zjisti víc o Safecoin',
       url: '/safecoin/'
     },
     aside1: {
-      title: 'Always Free to Access',
+      title: 'Přístup vždy zdarma',
       para: [
-        'Information is always free to access. You’ll never be charged for browsing or downloading. The SAFE Network guarantees equal access to data for everyone. You don’t even need an account, just download the browser.',
+        'Přístup k informacím je vždy zdarma. Za prohlížení nebo stahovaní se nikdy nebude platit. SAFE Network garantuje rovnoprávný přístup k datům pro každého a ani není potřeba mít svůj účet. Stačí stáhnout prohlížeč.',
       ]
     },
     aside2: {
-      title: 'The Perfect Market',
+      title: 'Dokonalý trh',
       para: [
-        'As there is no human interaction, the Network autonomously creates a perfect market.  Prices are set continually dependent on available resources and user demand.',
+        'SAFE Network samostatně vytváří dokonalý trh.  Ceny jsou nastaveny v závislosti na množství dostupných zdrojů a potřeb uživatelů.',
       ]
     },
     aside3: {
-      title: 'No Infrastructure Costs',
+      title: 'Žádná cena za infrastrukturu',
       para: [
-        'Without fixed infrastructure costs, each additional member of the network increases the utility and speed for everyone else. And the system rewards popular apps and websites with payments directly.',
+        'Bez poplatků za infrastrukturu, každý další člen sítě zvýší rychlost a užitek pro všechny ostatní. A systém odmění automaticky populární aplikace a stránky.',
       ]
     },
     aside4: {
-      title: 'Contribute Resources, Get Paid.',
+      title: 'Zapoj se a dostaneš zaplaceno.',
       para: [
-        'By running a Vault, you can offer the network your unused resources—like hard drive space and bandwidth—and be automatically be rewarded with Safecoin.',
+        'Zprovozni Vault a síť využije tvé nevyužité kapacity připojení a volného místa. Za to automaticky začneš získávat SafeCoiny.',
       ]
     },
   }
