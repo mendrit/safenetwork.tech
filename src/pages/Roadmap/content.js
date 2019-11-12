@@ -80,33 +80,33 @@ export default {
             },
           }, {
             feature: 'Message Relay',
-            desc: 'Ensures a message can be sent between nodes in different Disjoint Sections',
-            status: 'Complete',
+            desc: 'Zajistí, aby zpráva mohla být poslána mezi různými uzly Disjoint Sekce',
+            status: 'Hotovo',
             para: [
-              'Ensures that a message can be sent between nodes in different Disjoint Sections. In this early iteration, each message contains signatures of the members of the Disjoint Sections but does not yet verify the signatures themselves.'
+              'Zajistí aby zpráva mohla být poslána mezi různými uzly Disjoint Sekce. V této ranné fázi každá zpráva obsahuje podpis členů Disjoint sekce, ale již neověřuje samotný podpis.'
             ],
           },
           {
             feature: 'PARSEC',
-            desc: 'Asynchronous consensus algorithm',
-            status: 'Complete',
+            desc: 'Algoritmus asynchronního konsensusu ',
+            status: 'Hotovo',
             para: [
-              'Ensures that a global decentralised, permissionless Network can reach agreement about events that are permitted and the order in which they are to be recorded. A DAG-based algorithm that achieves the highest standard of security possibile, invented by MaidSafe in such a way that it ensures it is mathematically certain that every part of the Network will reach eventual agreement. In Fleming, we’ll be releasing a highly asynchronous version of PARSEC, with full asynchronicity to come later.'
+              'Zajistí, aby celosvěstová, decentralizovaná, neblokovatelná síť dosáhla shody v případech, které je potřeba schválit a určila pořadí, ve kterém se mají uložit. Na základech DAG algoritmu, který dosahuje nejvyššího možného bezpečnostního standardu, vyvinuli v MaidSafe, aby zajistili, že je matematicky jisté, aby každá událost v SAFE Network dosáhne shody. Při spuštění Fleming bude PARSEC ve velice asynchronní verzi, která bude plně asynchronní později.'
             ],
             CTA: {
-              name: 'Read More',
+              name: 'Podrobnosti',
               url: 'https://hub.safedev.org/parsec/'
             },
           }, {
-            feature: 'Node Ageing',
-            desc: 'A decentralised system for ranking the behaviour, performance and abilities of nodes on the Network that requires no human intervention.',
-            status: 'Development',
+            feature: 'Stárnutí uzlu',
+            desc: 'Decentralizovaný systém ohodnocení výkonu a chování uzlů připojených do sítě, bez potřeby lidských zásahů.',
+            status: 'Ve vývoji',
             para: [
-              'Each node on the SAFE Network is given an age by the Network itself. The node age increments every time that a node moves between Disjoint Sections, with only the most senior (Elders) entitled to vote during the PARSEC consensus algorithm.',
-              'Dig into the detail in the RFC, and [join the discussion](https://forum.safedev.org/t/rfc-45-node-ageing/157) on the forum.'
+              'Každý uzel(Node) v SAFE network získá svůj věk ze samotné sítě. Tento věk se zvýší pokaždé, kdy dojde k pohybu mezi Disjoint sekcemi, kde pouze nejstarší (Elders) mají právo volit v PARSEC konsensus algoritmu.',
+              'Prozkoumej detaily v RFC, a [zapoj se do diskuze](https://forum.safedev.org/t/rfc-45-node-ageing/157) na safedev fóru.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Přečíst RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0045-node-ageing/0045-node-ageing.md'
             },
           }, {
