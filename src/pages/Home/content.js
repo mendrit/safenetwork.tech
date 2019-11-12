@@ -1,17 +1,17 @@
 export default {
   banner: {
-    title: `We're Building The \nNew Internet`,
-    desc: '[Freedom](/#freedom) of expression, [control](/#control) of personal data, [private and secure](/#privacy) communications; and a whole new [economy](/#economy). Welcome to the SAFE Network.',
+    title: `Budujeme \nNový Internet`,
+    desc: '[Svoboda](/#freedom) projevu, [kontrola](/#control) osobních dat, [soukromá a bezpečná](/#privacy) komunikace; a od základu nová [ekonomika](/#economy). Vítejte v Safe Network.',
     aside: {
-      para: 'Using spare bandwidth and unused disk space on home computers and phones, we’re taking the web off corporate servers, out of government control, and back into the hands of people.',
+      para: 'Použitím neobsazeného místa na disku a volné kapacity vašeho připojení, převezmeme web z korporátních serverů, mimo kontrolu vlády, zpět pod kontrolu samotných uživatelů.',
       CTA: {
-        name: 'See How it Works',
+        name: 'Jak to funguje?',
         url: '/how-it-works/'
       }
     },
   },
   freedom: {
-    title: 'Decentralised & Autonomous: \nFreedom of expression by design.',
+    title: 'Decentralizovaný & Autonomní: \nSvoboda vyjadřování od základu.',
     para: [
       'Everyone should be able to collaborate freely and share ideas; free and unrestricted access to information for everyone around the world.',
       'That’s why we’ve design a system like no other: An autonomous network that runs itself, distributed across the globe, that can’t be shut down, controlled, or censored.'
