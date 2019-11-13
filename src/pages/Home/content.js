@@ -21,12 +21,12 @@ export default {
       url: '/faq/#what-is-an-autonomous-network'
     },
     founderQuote: {
-      para: `"Oprava Internetu nevede k požadovanému výsledku, a nyní je zde řešení, kterého jsme součástí."`,
+      para: `"Oprava Internetu nevede k požadovanému výsledku a nyní je zde řešení, kterého jsme součástí."`,
       by: 'David Irvine — Zakladatel'
     },
     aside1: {
       title: 'Všechna data jsou si rovna',
-      para: 'Se všemi daty v síti se zachází stejně a každý má rovnocenný a zdarma přístup. Síťová neutralita jako standard.'
+      para: 'Se všemi daty v síti se zachází stejně a každý má rovnocenný a přístup zdarma. Síťová neutralita jako standard.'
     },
     aside2: {
       title: 'Bez cenzury a vynuceného vypnutí',
@@ -36,9 +36,9 @@ export default {
   privacy: {
     title: 'Naprosté soukromí, absolutní bezpečnost.',
     para: [
-      'Soukromí a bezpečnost by měla být dostupná pro každého, ne jen pro ty co si to můžou dovolit.',
+      'Soukromí a bezpečnost by měla být dostupná pro každého, ne jen pro ty, co si to můžou dovolit.',
       'To je důvod proč SAFE Network šifruje všechna data okamžitě, automaticky je rozdělí na menší kousky, které mění svou polohu po celém světě a nemohou být nadále sledována. A přístup k nim také nelze sledovat.',
-      ' Žádné další krádeže dat a hesel, už žádné odpouslouchání. Soukromně. Bezpečně. Anonymně.'
+      ' Žádné další krádeže dat a hesel, už žádné odpouslouchávání. Soukromně. Bezpečně. Anonymně.'
     ],
     CTA: {
       name: 'Jak to funguje?',
@@ -49,7 +49,7 @@ export default {
     },
     aside1: {
       title: 'Anonymní prohledávání a přístup',
-      para: 'V SAFE Network, lze prohlížet a stahovat anonymně, odkudkoli z celého světa. Bez zakládání účtu.'
+      para: 'V SAFE Network lze prohlížet a stahovat anonymně odkudkoli z celého světa. Bez zakládání účtu.'
     }
   },
   data: {
