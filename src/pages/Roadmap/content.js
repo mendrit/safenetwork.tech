@@ -268,7 +268,7 @@ export default {
             desc: 'Schopnost sítě se obnovit po neočekávané katastrofě',
             status: 'Návrh',
             para: [
-              'V případě katastrofického výpadku, by se síť měla schopna sama obnovit, jelikož přetrvá celistvost nezbytných dat, které umožní znovu obnovit funkčnost, na základě posledního stavu sítě.'
+              'V případě katastrofického výpadku, by se síť měla schopna sama obnovit, jelikož přetrvá celistvost nezbytných dat, které umožní znovu obnovit funkčnost, na základě posledního známého stavu sítě.'
             ],
           }, {
             feature: 'Podpora RDF',
