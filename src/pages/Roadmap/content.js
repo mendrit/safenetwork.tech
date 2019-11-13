@@ -136,57 +136,57 @@ export default {
             desc: 'Základní programovací jazyk pro veškerou síťovou komunikaci nových uživatelů připojených do SAFE network',
             status: 'Hotovo',
             para: [
-              'Software that lets computers communicate in an encrypted manner on the SAFE Network. The software provides the infrastructure for messages to travel whilst the Routing layer of the Network sets the rules about which directions those messages can travel in.'
+              'Software, který umožní počítačům šifrovanou komunikaci v SAFE Network. Tento software zakládá infrastrukturu pro zprávy, zatímco routing vrsta stanoví pravidla jakou cestou a směrem mají tyto zprávy jít.'
             ],
           }, {
-            feature: 'Malice Detection',
-            desc: 'Preventing malicious nodes subverting the consensus algorithm, PARSEC',
-            status: 'Complete',
+            feature: 'Detekce záškodníků',
+            desc: 'Prevence záškodných uzlů v narušovaní konsensu algoritmu PARSEC',
+            status: 'Hotovo',
             para: [
-              'The way that nodes identify malicious nodes that are damaging the Network within a Disjoint Section and the mechanism by which they agree to eject that node, or mitigate the risk.'
+              'Způsob, jakým identifikovat záškodné uzly, které škodí síti uvnitř Disjoint Sekce a mechanismus, kterým souhlasí s odstraněním takového uzlu, nebo zmírnění rizika.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Přečíst RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0050-malice_in_parsec/0050-malice_in_parsec.md'
             }
           }, {
-            feature: 'Test Safecoin & Wallet',
-            desc: 'Allow the Network to charge, and a user to send and receive payments to a wallet, in units called Test Safecoins',
-            status: 'Complete',
+            feature: 'Test SafeCoin & Peněženka',
+            desc: 'Umožní síti inkasovat poplatky a uživatel může přijímat a odesílat platby z peněženky v měně nazývané Test SafeCoin',
+            status: 'Hotovo',
             para: [
-              'Safecoin is the incentive mechanism that encourages individuals to provide the computing resources that the Network requires: storage, broadband, and CPU resources.',
+              'SafeCoin slouží k podpoře a motivaci jednotlivců, kteří dodávají výpočetní zdroje, která síť potřebuje: HDD/SSD, broadband a výkon CPU ',
             ]
           }, {
-            feature: 'Farming',
-            desc: 'The process of providing resource and receiving Safecoin in return',
-            status: 'Development',
+            feature: 'Farmaření',
+            desc: 'Proces, při kterém SafeCoin je vyplacen těm, kteří poskytnou síti své zdroje  ',
+            status: 'Ve vývoji',
             para: [
-              'Individuals who choose to supply the resources that the Network requires have the opportunity to be rewarded with Safecoin. This work ensures that the Network rewards those who provide it with valuable resources.',
+              'Uživatelé, kteří se rozhodli poskytnout síti své zdroje, které síť vyžaduje, mají možnost získat SafeCoiny. Tento mechanismus zajistí, že síť odmění ty, kteří poskytují požadované zdroje.',
             ],
           }, {
-            feature: 'Vaults From Home',
-            desc: 'The ability for anyone to download software and run Vaults from home, creating decentralised storage for the Network',
-            status: 'Development',
+            feature: 'Vault pro uživatele',
+            desc: 'Možnost pro každého stáhnout si software and spustit Vault u sebe a tím se podílet na větší decentralizaci SAFE Network ',
+            status: 'Ve vývoji',
             para: [
-              'Decentralised data storage is a key element of the SAFE Network. This release will enable nodes to participate regardless of the resources they offer.'
+              'Decentralizované uložiště dat je klíčová část SAFE Network. Tímto se umožní uzlům se zapojit se svými zdroji, které můžou poskytnout.'
             ],
           }, {
-            feature: 'Published and Unpublished Data Types',
-            desc: 'Allow the network to store Published and Unpublished data via AppendOnlyData or MutableData types',
-            status: 'Complete',
+            feature: 'Veřejné a neveřejné typy dat',
+            desc: 'Umožní síti uložit veřejný a neveřejný obsah přes AppendOnlyData, nebo MutableData typ dat',
+            status: 'Hotovo',
             para: [
-              'Published data refers to content that is published (made available) for everyone such as websites, blogs, or research papers. For such public content, it becomes important to retain a history of changes. History must not be allowed to be tampered with and the published data must remain forever. Unpublished data is data that is not desired to be made public such as personal data or organisations’ data stored on the network'
+              'Veřejné data jsou pro obsah, který je dostupný všem jako weby, blogy, nebo vědecké publikace. Pro takový druh obsahu je důležité, zachovat historii všech změn. Historii není možné měnit, či manipulovat ve svůj prospěch. Ta musí být zachována navždy. Neveřejné data jsou data, která nejsou určena být komukoli jinému dostupná jako osobní údaje, rodinné alba, nebo data organizací a firem uložena na síti'
             ],
             //CTA: {
               //name: 'Read the RFC',
               //url: 'https://github.com/maidsafe/rfcs/blob/master/text/0054-published-and-unpublished-mutable-data/0054-published-and-unpublished-mutable-data.md'
             //},
           }, {
-            feature: 'Unpublished ImmutableData Data Type',
-            desc: 'Enhance ImmutableData to make it an unpublished or published, with the difference that unpublished can be deleted',
-            status: 'Complete',
+            feature: 'Neveřejný ImmutableData typ dat',
+            desc: 'ImmutableData jsou neveřejná, nebo veřejná s tím rozdílem, že neveřejná mohou být smazána',
+            status: 'Hotovo',
             para: [
-              'There are many times when a user will require to create Immutable Data to store private content. As long as this content is not published (made available for others) this will be deleteable by the data owner only.'
+              'Je mnoho důvodů, kdy uživatelé mají potřebu vytvořit ImmutableData pro uložení soukromého obsahu. Do doby, než je obsah zveřejněn (dostupný ostatním) bude možné soubor smazat pouze majitelem těchto dat.'
             ],
             //CTA: {
               //name: 'Read the RFC',
