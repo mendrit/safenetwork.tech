@@ -40,7 +40,7 @@ export default {
       para: ['Blížící se další milník SAFE Network. Zatímco Vault Phase 1 v předchozí fázi běžel pouze na počítači, se spuštěním Fleming se propojí se všemi ostatními Vault v síti. Umožní ukládat soubory, zabezpečenou komunikaci, otestuje platební systém včetně testovací měny SafeCoin.'],
       accordion: {
         header: [
-          'Fleming vlastnosti',
+          'Fleming vylepšení',
           'Popis',
           'Stav'
         ],
@@ -197,41 +197,41 @@ export default {
       }
     },
     release3: {
-      overline: 'Next Up',
-      title: 'SAFE Maxwell Network',
-      para: ['The release of SAFE Maxwell builds on top of Fleming and enables the network to upgrade, improves security and sets the ground work for switching test SAFE Coin to real SAFEcoin.'],
+      overline: 'Další v pořadí',
+      title: 'Maxwell',
+      para: ['S vydáním SAFE Network Maxwell budovaném na Fleming bude umožněno síti vydávat aktualizace, vylepší bezpečnost a připraví podmínky pro změnu z test SafeCoin na opravdový SafeCoin.'],
       accordion: {
         header: [
-          'Maxwell Feature',
-          'Description',
-          'Status'
+          'Maxwell vylepšení',
+          'Popis',
+          'Stav'
         ],
         items: [
           {
-            feature: 'Spam Handling',
-            desc: 'Ability to handle spam attacks',
-            status: 'Concept',
+            feature: 'Spam ochrana',
+            desc: 'Schopnost zvládat spam útoky',
+            status: 'Návrh',
             para: [
-              'Spam includes nodes attempting to carry out activities that they shouldn’t or valid activities at a scale that is intended to choke the Network. The Network should be able to withstand a reasonable volume of such attacks.'
+              'Spam zahrnuje uzly zkoušející aktivity, které by němely dělat, nebo ty oprávněné, ale které jsou v měřítku, co vedou k zahlcení sítě. Síť by měla zvládnout adekvátní objem takových útoků.'
             ],
           }, {
-            feature: 'Identity Management',
-            desc: 'Ability for users to create and manage multiple identities for use on the network',
-            status: 'Concept',
+            feature: 'Správa identit ',
+            desc: 'Možnost pro uživatele vytvářet a spravovat vícero identit pro použití v síti',
+            status: 'Návrh',
             para: [
-              'Users will be able to create multiple identities in the Network. Each identity can be used as required by the User and each should be independent unless the User explicitly wants to connect them. This helps protect identity and privacy.'
+              'Uživetelům bude umožněno vytvářet vícero identit v síti. Každá z nich může být použita dle potřeb uživatele, aby každá mohla být nezávislá, dokud uživatel vyloženě nevyžaduje je propojit. Tímto se zlepší ochrana identit a soukromí.'
             ],
           },
           {
-            feature: 'Upgrades',
-            desc: 'The ability for the Network to upgrade itself, with no harm caused',
-            status: 'Concept',
+            feature: 'Aktualizace',
+            desc: 'Schopnost sítě se samostatně aktualizovat, bez způsobení škod',
+            status: 'Návrh',
             para: [
-              'The Network will have the ability to upgrade itself in order to allow features and improvements to disseminate throughout the Network. The upgrades must be done in a way such that they don’t cause harm to the Network.',
-              'This is an important stage in the evolution of the Network as it means that new software can then continue to be rolled out onto the existing Network without disrupting the existing functionality.'
+              'SAFE Network bude mít možnost se sama aktualizovat, aby zavedla nová vylepšení a rozšířila je na celou síť. Aktualizace se musí provést takovým způsobem, aby nevzikly žádné škody.',
+              'Toto je důležitý krok v evoluci sítě, jelikož to umožní aplikovat nejnovější software, který může být nadále vylepšován v aktuální síti, bez narušení existujích funkcí.'
             ],
             CTA: {
-              name: 'Follow the Discussion',
+              name: 'Přejít na fórum',
               url: 'https://safenetforum.org/t/step-by-step-the-road-to-fleming-5-network-upgrades/28319'
             }
           }
@@ -239,61 +239,61 @@ export default {
       }
     },
     release4: {
-      overline: 'Coming Soon',
-      title: 'Upcoming Network Features',
-      para: ['The following list represents network work that remains to be completed. The order should not be seen as fixed in any way as in certain cases, work will be carried out in parallel by different teams.'],
+      overline: 'Již brzy',
+      title: 'Nadcházející vylepšení sítě',
+      para: ['Tento seznam obsahuje výčet úkolů, která chybí dodělat. Pořadí by nemělo být pevně dané, až na určité případy. Práce budou probíhat paralelně různými týmy.'],
       accordion: {
         header: [
-          'Feature',
-          'Description',
-          'Status'
+          'Vylepšení',
+          'Popis',
+          'Stav'
         ],
         items: [
           {
-            feature: 'Secure Enclaves',
-            desc: 'A trusted executable environment within existing computers',
-            status: 'Concept',
+            feature: 'Zabezpečené ostrovy',
+            desc: 'Důvěrné spustitelné prostředí uvnitř existujících počítačů',
+            status: 'Návrh',
             para: [
-              'Creates an area within the hardware of a computer that is a secure, trusted environment that stands separate from the rest of the computer. It functions like a mini-computer inside existing computers that cannot be opened.'
+              'Tvoří oblast v rámci hardware, která je bezpečná s důvěrným prostředím bez ohledu na zbytek počítače. Záměr je vytvořit něco jako minipočítač uvnitř počítače, do kterého se nelze dostat.'
             ],
           }, {
-            feature: 'Network Growth',
-            desc: 'Allow the network to grow and scale in a sustainable way',
-            status: 'Concept',
+            feature: 'Rozvoj sítě',
+            desc: 'Umožní síti dlouhodobě růst a škálovat',
+            status: 'Návrh',
             para: [
-              'The Network allows controlled growth to ensure that the majority of decision-makers are healthy nodes that follow the rules of the Network. This growth should be sustainable in order to avoid unnecessary mergers between Sections.'
+              'Síť umožní kontrolovaný růst, kde zajistí, aby majorita podstatných uzlů byla v dobrém stavu a dodržovala pravidla sítě. Tento dlouhodobě udržitelný růst by se měl vyvarovat nevyžádaných sloučení mezi sekcemi.'
             ],
           }, {
-            feature: 'Network Restarts',
-            desc: 'Ability for the network to restart after a catastrophe',
-            status: 'Concept',
+            feature: 'Síťové restarty',
+            desc: 'Schopnost sítě se obnovit po neočekávané katastrofě',
+            status: 'Návrh',
             para: [
-              'In the event of a catastrophic outage, the Network should be able to rebuild itself because it maintains the integrity of essential data (such as chain history) which enables it to start functioning again on the basis of the last known state of the Network.'
+              'V případě katastrofického výpadku, by se síť měla schopna sama obnovit, jelikož přetrvá celistvost nezbytných dat, které umožní znovu obnovit funkčnost, na základě posledního stavu sítě.'
             ],
           }, {
-            feature: 'RDF Support',
-            desc: 'The Network will have native support for RDF, enabling data to be compatible with the Semantic Web',
+            feature: 'Podpora RDF',
+            desc: 'Síť bude mít nativní podporu RDF, umožňující datům být kompatibilní se sémantickým webem',
             status: 'RFC',
             para: [
-              'Ensures that data on the SAFE Network is stored in such a way that the format can be understood by other Semantic Web projects, such as Solid.'
+              'Zajistí, aby byla data uložena na SAFE Network ve formátu, srozumitelným pro další sémantické web projekty, jako je Solid.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Přečti RFC',
               url: 'https://github.com/nbaksalyar/rfcs/blob/master/text/0000-rdf-in-client-libs/0000-rdf-in-client-libs.md'
             },
           }, {
-            feature: 'Obfuscating stored data',
-            desc: 'All data stored within a Vault on an individual’s computer must be entirely encrypted and unreadable',
-            status: 'Concept',
+            feature: 'Zamlžení uložených dat',
+            desc: 'Všechna data uložena ve Vault na jednotlivém počítači musí být kompletně zašifrována a nečitelná',
+            status: 'Návrh',
             para: [
-              'Ensures that even the smallest piece of data that is stored in a Vault cannot be read by the person controlling the computer on which it is stored.'
+              'Zajistí, aby i ta nejmenší část dat uložena ve Vault, nemohla být přečtena osobou ovládající daný počítač s touto částí dat.'
             ],
           }, {
             feature: 'Common Coin',
-            desc: 'Replace our concrete coin with a common coin to make PARSEC fully asynchronous',
+            desc: 'Nahrazuje aktuální "Concrete Coin" za "Common Coin" aby PARSEC mohl být plně asynchronní',
             status: 'Design',
             para: [
-              'Common coin is a device that nodes can use to generate a “random” binary value (true or false). Every time a node flips the coin, all other nodes are guaranteed to observe the same value for their coin flip. Also, the value must be unpredictable, which means that no malicious node can know the outcome before a honest node has observed it.'
+              , '"Common Coin" je nástroj pro uzly, kterým umožní vytvářet "náhodné"binární hodnoty (pravda/ lež). Every time a node flips the coin, all other nodes are guaranteed to observe the same value for their coin flip. Also, the value must be unpredictable, which means that no malicious node can know the outcome before a honest node has observed it.'
             ],
           }
         ]
