@@ -110,31 +110,31 @@ export default {
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0045-node-ageing/0045-node-ageing.md'
             },
           }, {
-            feature: 'Secure Message Delivery',
-            desc: 'Trusted communication between nodes - messages with authenticated source',
-            status: 'Development',
+            feature: 'SMD Zabezpečený přenos zpráv',
+            desc: 'Důvěrná komunikace mezi uzly - zprávy z autentizovaných zdrojů',
+            status: 'Ve vývoji',
             para: [
-              'Ensures messages are sent and signed in such a way that lets nodes rely on the contents of each message despite having no previous relationship with the sender. This solves a problem faced by many existing blockchain-based projects and is essential when you have a Network that will autonomously move nodes around as required.'
+              'Zajistí, aby všechny zprávy byly poslány a podepsány a uzly bez znalosti odesílatele mohli zprávám důvěřovat. Toto řeší problém, kterému čelí mnohé jiné projekty založeny na blockchain technologii a je nezbytná pro síť, která přesouvá uzly dle svých potřeb.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Přečíst RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0056-secure-message-delivery/0056-secure-message-delivery.md'
             },
           }, {
-            feature: 'Reliable Message Delivery',
-            desc: 'Communication guaranteeing the successful delivery of messages.',
-            status: 'Complete',
+            feature: 'RMD Spolehlivé doručení zpráv',
+            desc: 'Komunikace zajišťující spolehlivé doručení zpráv.',
+            status: 'Hotovo',
             para: [
-              'Ensures that all sent messages will be successfully delivered to their destinations, even when some nodes responsible for the delivery are failing.'
+              'Zajistí, aby všechny odeslané zprávy byly spolehlivě doručeny na své místo, i přesto, kdy některé uzly odpovědné za doručení vykazují chyby.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Přečíst RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0058-reliable-message-delivery/0058-reliable-message-delivery.md'
             },
           }, {
             feature: 'QUIC-P2P',
-            desc: 'The low-level language which users connecting to SAFE will use for all network communications',
-            status: 'Complete',
+            desc: 'Základní programovací jazyk pro veškerou síťovou komunikaci nových uživatelů připojených do SAFE network',
+            status: 'Hotovo',
             para: [
               'Software that lets computers communicate in an encrypted manner on the SAFE Network. The software provides the infrastructure for messages to travel whilst the Routing layer of the Network sets the rules about which directions those messages can travel in.'
             ],
