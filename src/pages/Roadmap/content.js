@@ -286,14 +286,14 @@ export default {
             desc: 'Všechna data uložena ve Vault na jednotlivém počítači musí být kompletně zašifrována a nečitelná',
             status: 'Návrh',
             para: [
-              'Zajistí, aby i ta nejmenší část dat uložena ve Vault, nemohla být přečtena osobou ovládající daný počítač s touto částí dat.'
+              'Zajistí, aby i ta nejmenší část dat uložena ve Vault, nemohla být přečtena osobou ovládající daný počítač s touto částí.'
             ],
           }, {
             feature: 'Common Coin',
             desc: 'Nahrazuje aktuální "Concrete Coin" za "Common Coin" aby PARSEC mohl být plně asynchronní',
             status: 'Design',
             para: [
-              , '"Common Coin" je nástroj pro uzly, kterým umožní vytvářet "náhodné"binární hodnoty (pravda/ lež). Every time a node flips the coin, all other nodes are guaranteed to observe the same value for their coin flip. Also, the value must be unpredictable, which means that no malicious node can know the outcome before a honest node has observed it.'
+              , '"Common Coin" je nástroj pro uzly, kterým umožní vytvářet "náhodné" binární hodnoty (pravda/ lež). Pokaždé kdy si uzel hodí mincí, všem ostatním uzlům je garantováno, že zaznamenali stejnou hodnotu pro své hody mincí. Také, tato hodnota musí být nepředpověditelná, což znamená, že záškodný uzel nezná hodnotu dřív, než ji zaznamená poctivý uzel.'
             ],
           }
         ]
