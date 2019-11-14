@@ -382,27 +382,27 @@ export default {
             ],
             items: [
               {
-                feature: 'Private Messaging',
-                desc: 'Send secure private messages between clients',
-                status: 'Concept',
+                feature: 'Soukromé zprávy',
+                desc: 'Zasílání zabezpečených soukromých zpráv mezi klienty',
+                status: 'Návrh',
                 para: [
-                  'One of the most sought after features of the SAFE Network: secure, private, instant messaging.'
+                  'Jedna z nejvíce žádaných vlastnosti v SAFE Network: zabezpečené, soukromé, okamžité zprávy.'
                 ],
               },
               {
-                feature: 'Identity Management',
-                desc: 'Ability for users to create and manage multiple identities',
-                status: 'Concept',
+                feature: 'Správce identit',
+                desc: 'Možnost uživatelů zakládat a spravovat mnohonásobné identity',
+                status: 'Návrh',
                 para: [
-                  'Improves the user experience for individuals as they switch between the identities (or profiles) that they choose to represent themselves with on the SAFE Network, without the need to create multiple accounts.'
+                  'Vylepší prostředí uživatelů pro intuitivní výběr identit (profilů), podle toho, jakou má kdo zrovna potřebu se reprezentovat na SAFE Network a to vše bez potřeby tvorby více účtů.'
                 ],
               },
               {
-                feature: 'Contacts Management',
-                desc: 'Find, connect and stay up-to-date with other SAFE Network users  ',
-                status: 'Concept',
+                feature: 'Správce kontaktů',
+                desc: 'Vyhledej, připoj se a zůstaň v kontaktu s dalšími SAFE Network uživateli  ',
+                status: 'Návrh',
                 para: [
-                  'Enables SAFE users to find and connect with other people across a range of applications in a consistent way.'
+                  'Umožní SAFE uživatelům najít a spojit se s dalšími lidmi napříč různými aplikacemi odpovídajícím způsobem.'
                 ],
               },
             ]
