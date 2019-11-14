@@ -301,67 +301,67 @@ export default {
     }
   },
   apps: {
-    title: 'Apps and User Experience',
+    title: 'Aplikace a zkušenosti',
     list: [
       {
         id: 'safeBrowser',
-        name: 'SAFE Browser',
-        para: 'The latest release includes some of the beginnings of the Perpetual Web, as well as the Authenticator: enabling you to securely sign in to the SAFE Network, and manage access and permissions of SAFE Apps.',
-        status: 'Latest Version v0.15.2'
+        name: 'Prohlížeč SAFE',
+        para: 'Poslední update přináší některé funkce "věčného" webu a podobně jako osobní autentizátor: umožní ti se bezpečně přihlásit do SAFE Network, s možností spravovat přístupy a povolení SAFE aplikací.',
+        status: 'Poslední verze v0.15.2'
       }
     ],
     currentMilestone: {
-      status: 'Current Milestone',
-      title: 'The Perpetual Web',
-      para: 'The SAFE Network is designed to ensure that public data is permanent and can never be deleted. Individuals and groups can choose to keep their data private, but once it’s been published, it will remain permanently available. This milestone aims to showcase the incredible power of this facet of the Network, by building out the User Experience, and iterating on it right through to launch.',
+      status: 'Aktuální milník',
+      title: 'Věčný web',
+      para: 'SAFE Network je navržena tak, aby veřejná data byla trvalá a nikdo je nemohl smazat. Každý má možnost mít i soukromá data, ale jakmile jsou jednou zveřejněna, již zůstanou všem dostupná navždy. Tento milník chce ukázat na úžásnou sílu takové sítě, vylepšit uživatelské zkušenosti s tímto modelem a připravit vše pro start sítě.',
       accordion: {
         header: [
-          'Milestone Features',
-          'Description',
-          'Status'
+          'Vylepšení',
+          'Popis',
+          'Stav'
         ],
         items: [
           {
-            feature: 'SAFE Browser',
-            desc: 'Enhancements to the browser designed specifically to take advantage of the functionalities of the Perpetual Web',
-            status: 'Development',
+            feature: 'Prohlížeč SAFE',
+            desc: 'Zlepšení designu prohlížeče speciálně pro novou funkcionalitu, kterou přináší Věčný web',
+            status: 'Ve vývoji',
             para: [
-              'The SAFE Browser functionality will be extended to incorporate new features that are unique to the Perpetual Web, such as the ability to roll-back through the version history of any SAFE website or asset.'
+              'Prohlížeč SAFE s novými vlastnostmi rozšíří možnosti, které jsou unikátní pro Věčný web. Umožní například prohlížet si historii jakékoli stránky od jejího počátku, až po poslední verzi.'
             ],
           },
           {
-            feature: 'Mobile Browser',
-            desc: 'Mobile version of SAFE browser which is limited to browsing published data from the SAFE Network',
-            status: 'Complete',
+            feature: 'Mobilní prohlížeč',
+            desc: 'Mobilní verze prohlížeče SAFE, která je limitována na prohlížení veřejných stránek v SAFE Network',
+            status: 'Hotovo',
             para: [
-              'Enables individuals to access the SAFE Network directly by using a browser on their mobile phone'
+              'Umožní každému přístup na SAFE Network přímo z prohlížeče tvého chytrého telefonu'
             ],
           },
           {
-            feature: 'Data Manager',
-            desc: 'Streamlined publishing of SAFE sites and Perpetual Data',
-            status: 'Development',
+            feature: 'Správce dat',
+            desc: 'Jednoduchá správa dat pro zveřejnění obsahu na SAFE stránkách a věčných dat',
+            status: 'Ve vývoji',
             para: [
-              'A suite of tools which provides the necessary functionality to add data to the SAFE Network, publish perpetual data, and manage Public Names. This will supersede the Web Hosting Manager.'
+              'Nástroj, který poskytne nezbytné funkce pro nahrávání dat na SAFE Network, zveřejnění věčných dat a správu veřejných adres. Toto nahrazuje web hostingový manažer.'
             ],
           },
           {
             feature: 'SAFE CLI',
-            desc: 'An advanced CLI to manage accounts and data',
-            status: 'Development',
+            desc: 'Pokročilé CLI pro správů účtu a dat',
+            status: 'Ve vývoji',
             para: [
-              'A command line tool to manage data on the SAFE Network. It will allow the user to store data on the network and manage accounts, identities, and permissions. This is the tool that the frontend apps and features—such as the Data Manager—will build upon.'
+              'Příkazový řádek pro správu dat na SAFE Network. Umožní uživateli uložit data v síti, správu účtů, identit a nastavení oprávění. Tento nástroj využijí především frontend aplikace a funkce, jakou je například datový manažer, na ni budou stavět.'
             ],
           },
           {
-            feature: 'Public Name System',
-            desc: 'Content stored should be accessible with human-readable URLs, via a decentralised domain name system: the Public Name System',
+            feature: 'PNS-Systém veřejných adres',
+            desc: 'Obsah uložený na stránkách by měl být přístupný přes jednoduše čitélné URL díky decentralizované DNS: Systém veřejných adres - Public Name System',
             status: 'RFC',
             para: [
-              'A domain name system translates numerical IP addresses into a format that can be read by humans (eg. http//216.58.206.35 resolves to Google.com). The current web relies on a centralised organisation to maintain that record. The SAFE Network requires this process to be outside the control of a single party in order to avoid censorship and repression.'
+              'DNS překládá IP adresy do lidmi lehce čitelného formátu (např. http//216.58.206.35 znamená Google.com). Nynější systém je závislý na centralizovaných organizacích, které DNS servery spravují. SAFE Network odmítá být pod kontrolou určité skupiny, aby se vyhnula cenzuře a blokování obsahu.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Přečti RFC',
               url: 'https://github.com/maidsafe/rfcs/issues/283'
             },
           },
@@ -369,16 +369,16 @@ export default {
       }
     },
     upcomingMilestones: {
-      status: 'Upcoming Milestones',
+      status: 'Následující milníky',
       list: [
         {
-          title: 'Private Communications',
-          para: 'If we want a world in which individuals can communicate freely whenever they choose, privacy is essential. This milestone aims to deliver just that.',
+          title: 'Soukromá  komunikace',
+          para: 'Pokud chceme svět, kde kdokoli může s kýmkoli bez obav komunikovat, pak soukromí je nezbytné. Tento milník chce právě tohoto dosáhnout.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Vylepšení',
+              'Popis',
+              'Stav'
             ],
             items: [
               {
@@ -413,9 +413,9 @@ export default {
           para: 'The SAFE Network turns the current data ownership model on its head. Personal information will no longer be stored on corporate servers. Self Authentication gives you complete control over your data. You can grant (and revoke) permission for apps to use your data at any time and prevent any unauthorised company or third party ever gaining access.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Vylepšení',
+              'Popis',
+              'Stav'
             ],
             items: [
               {
