@@ -409,8 +409,8 @@ export default {
           }
         },
         {
-          title: 'Take Control of Your Data',
-          para: 'The SAFE Network turns the current data ownership model on its head. Personal information will no longer be stored on corporate servers. Self Authentication gives you complete control over your data. You can grant (and revoke) permission for apps to use your data at any time and prevent any unauthorised company or third party ever gaining access.',
+          title: 'Převezmi kontrolu nad svými daty',
+          para: 'SAFE Network převrací dosavadní způsob vlastnění dat vzhůru nohama. Osobní informace už nadále nebudou na korporátních serverech. Osobní autentikátor ti umožní mít kompletní kontrolu nad svými daty. Ty můžěš kdykoli udělit aplikacím oprávnění (a odebrat) k využití tvých dat a zabránit neoprávněnému přístupu cizím společnostem napořád.',
           accordion: {
             header: [
               'Vylepšení',
@@ -419,76 +419,76 @@ export default {
             ],
             items: [
               {
-                feature: 'Data Manager',
-                desc: 'Fine-grained management of your personal data',
-                status: 'Concept',
+                feature: 'Správce dat',
+                desc: 'Ideální správce tvých osobních dat',
+                status: 'Návrh',
                 para: [
-                  'The extension of the Data Manager tool to allow fine-grained control by individuals over their private and unpublished data.'
+                  'Vylepšené rozšíření správce dat, které umožní vyladěnou kontrolu každému, pro jejich soukromá a neveřejná data.'
                 ],
               },
               {
-                feature: 'RDF Support',
-                desc: 'Support storing and querying RDF resources in SAFE-Core',
+                feature: 'Podpora RDF',
+                desc: 'Podpora ukládání a přístupu k RDF zdrojům přímo v SAFE-Core',
                 status: 'RFC',
                 para: [
-                  'Ensures that the SAFE Network understands a way of describing the architecture of data that is understood by other projects, such as Solid'
+                  'Zajistí, aby SAFE Network architektuře a zápisu dat rozumněly i jiné projekty, jako například Solid'
                 ],
                 CTA: {
-                  name: 'Read the RFC',
+                  name: 'Přečti RFC',
                   url: 'https://github.com/maidsafe/rfcs/issues/289'
                 },
               },
               {
-                feature: 'SPARQL Support',
-                desc: 'Add native support for SPARQL to allow searching of data',
-                status: 'Concept',
+                feature: 'Podpora SPARQL',
+                desc: 'Nativní podpora SPARQL pro umožnění vyhledávání dat',
+                status: 'Návrh',
                 para: [
-                  'Enhances the functionality of SAFE by adding SPARQL support to SAFE Client Libs and SAFE Vault.  This ensures that the Network can understand a well-known semantic query language, and enables users to search.'
+                  'vylepší možnosti SAFE Network přidáním podpory SPARQL do SAFE Client Libs a SAFE Vault.  To zajistí, aby v síti mohla probíhat komunikace v sémantickém jazyce a uživatelé měli možnost vyhledávání.'
                 ],
               },
               {
-                feature: 'Collaboration',
-                desc: 'Tools to enable collaboration through sharing and group permissions on private unpublished data',
-                status: 'Concept',
+                feature: 'Spolupráce',
+                desc: 'Nástroj, který umožní spolupráci díky sdílení a skupinovému povolení soukromých neveřejných dat',
+                status: 'Návrh',
                 para: [
-                  'Manage sharing and permissions of private, unpublised data and files, for collaboration between individuals and groups. '
+                  'Spravuje sdílení a oprávnění soukromých, neveřejných dat a souborů, pro spolupráci uvnitř skupiny, nebo mezi jednotlivci. '
                 ],
               },
               {
-                feature: 'XOR URLs',
-                desc: 'A way of sharing and accessing SAFE Network files without the need for a Public Name',
-                status: 'Complete',
+                feature: 'XOR URL adresy',
+                desc: 'Způsob zřízení přístupu k souborům na SAFE Network i bez veřejné adresy',
+                status: 'Hotovo',
                 para: [
-                  'Create a system of standardised URL’s on the SAFE Network that are based on the XOR address of the content being referenced. Ensures that individuals can access and locate  data and files in a more user-friendly manner.'
+                  'Vytvoří systém standardních URL adres na SAFE Network, založeném na XOR adresách, které odkazují na daný obsah. Zajistí, aby kdokoli mohl najít data a soubory v uživatelsky příjemném prostředí.'
                 ],
               }
             ]
           }
         },
         {
-          title: 'The New Digital Economy',
-          para: 'The new digital economy is all about ensuring that you no longer pay for your digital life with data. Instead, you use a cryptocurrency that’s integral and distributed by the SAFE Network. You earn value in return for providing resources to the Network.',
+          title: 'Nová digitální ekonomika',
+          para: 'Tato nová digitální ekonomika je o tom, že za svůj život na síti, neplatíš svými osobními daty. Místo toho je integrovaná kryptoměna, která je distribuovaná přímo SAFE Network. Ty získáš SafeCoin kryptoměnu, pokud poskytneš síti své zdroje, které síť potřebuje.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Vylepšení',
+              'Popis',
+              'Stav'
             ],
             items: [
               {
-                feature: 'Test Safecoin Wallet',
-                desc: 'Transact using Test Safecoins',
-                status: 'Development',
+                feature: 'Test SafeCoin peněženka',
+                desc: 'Transakce s testovacími SafeCoiny',
+                status: 'Ve vývoji',
                 para: [
-                  'Users will be able to use Test Safecoin in the Network, allowing an ecosystem to built around the SAFE incentive mechanism. The ability to create multiple wallets, associate them with an identity, and also one-time-use wallets to enable anonymous transactions, will all be part of this.',
+                  'Uživatelé mohou používat Test SafeCoin v síti, umožňující ekosystému budovat motivační mechanismy. Možnost vytvoření tisíce peněženek, propojených ke stejné identitě a také možnost vytvořit peněženky na jedno použití pro umožnění anonymních transakcí, které tohoto budou součástí.',
                 ],
               },
               {
-                feature: 'Vault User Interface',
-                desc: 'Easily set up, run, and manage a Vault',
-                status: 'Concept',
+                feature: 'Vault uživatelské rozhraní',
+                desc: 'Jednoduše zprovoznit, nastavit a spravovat Vault',
+                status: 'Návrh',
                 para: [
-                  'Users will see greatly-improved Vault User Experience. Anyone providing storage to the Network can expect to see a number of usability improvements, making it easy to offer resources and start farming on everyday home computers and devices.'
+                  'Uživatelům přinese značně vylepšené Vault uživatelské rozhraní. Kdokoli poskytne své místo na disku síti, může očekávat spoustu uživatelských vylepšení, které usnadní vybrat své zdroje a začít s farmařením každý den ze svého počítače, nebo jiného zařízení.'
                 ],
               },
             ]
