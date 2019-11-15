@@ -1,22 +1,22 @@
 export default {
   banner: {
-    title: 'Autonomous, Decentralised, Encrypted.',
+    title: 'Autonomní, decentralizovaný, šifrovaný.',
     aside: {
-      para: 'Powered by the spare capacity of everyday computers, SAFE replaces the vulnerable structure of the existing Web with a decentralised, autonomous network. One that is secure, and accessible to everyone.',
+      para: 'Postaven na volné kapacitě běžných počítačů, SAFE network nahrazuje zranitelnou infrastrukturu dnešního webu decentralizací a autonomní sítí. A to vše je zabezpečené a přístupné komukoli.',
       CTA: {
-        name: `Here's how it works`,
+        name: `FAG 'Jak to funguje`,
         url: '/faq/#what-is-a-vault'
       }
     },
   },
   topics: [
     {
-      name: 'Introduction',
+      name: 'Představení',
       desc: [
         {
-          title: 'Getting to grips with the SAFE Network',
+          title: 'Co si představit pod SAFE Network',
           para: [
-            'If you don’t understand what a new decentralised web might mean, you’re far from alone. But once the benefits of a new web built on the SAFE Network become clear—permanent data, never again stored by untrustworthy and hackable third parties that you alone can access at any time from anywhere around the globe—the value becomes clearer. There’s a huge amount of work required to build a system that can deliver on such promises. So to get you started, here’s a few pointers about some of the technology that lies under the hood.'
+            'Pokud netušíš, co si představit pod novým decentralizovaným webem, tak v tom nejsi sám/a. Jedna z výhod nově budovaného webu na SAFE Network je, že data a soubory se stanou výrazně přehlednější - už nikdy nebudou uloženy na nedůvěryhodných a nezabezpečených serverech pod kontrolou třetích stran. Pouze ty k nim můžeš mít přístup odkudkoli z celého světa, což má svou hdonotu. Zde je potřeba obrovský kus práce k postavení takového systému, který naplní naše očekávání. Aby vše bylo srozumitelnější, zde je několik ukázek technologií, na kterých celý systém stojí.'
           ]
         }
       ]
