@@ -21,35 +21,35 @@ export default {
         }
       ]
     }, {
-      name: 'Browsing',
+      name: 'Prohlížení',
       desc: [
         {
-          title: 'All human knowledge, available to all humanity',
+          title: 'Veškeré lidské znalosti, dostupné pro všechny lidi',
           para: [
-            `Perhaps you only want to view content on the Network. For many, that may seem no different to the Web today. But for the 1.5 billion people around the world blocked from sites like Wikipedia, it's a giant leap forward. And all they need to do is download the SAFE browser—the gateway to the new Web—accessible by anyone, anywhere.`,
-            'Browsing SAFE is private, anonymous, and secure—free from tracking by corporate or government interests. The choices you make are yours alone. No more having The Invisible Other looking over your shoulder.'
+            `Možná chceš jen vidět obsah na síti, což pro mnohé není velký rozdíl oproti dnešnímu webu, ale pro 1,5 miliardu lidí z celého světa jsou blokovány stránky jako Wikipedia. To je obrovský rozdíl v nových možnostech. Vše co stačí udělat, je stáhnout SAFE prohlížeč—bránu do nového internetu—přístupnou pro každého, odkudkoli.`,
+            'Prohlížení SAFE Network je anonymní, soukromé a bez sledování nadnárodních firem, nebo vlád. Pouze ty si zvolíš co tě zajímá a co uděláš. Už tě nikdo nebude sledovat a zaznamenávat tvé chování na síti.'
           ]
         }
       ],
       aside: {
         position: 1,
-        para: 'Want to try the SAFE Network, and help build the future of the Internet?',
+        para: 'Máš chuť vyzkoušet SAFE Network a pomoct budovat Internet budoucnosti?',
         CTA: {
-          name: 'Get Involved',
+          name: 'Pojď se zapojit',
           url: '/get-involved/'
         }
       }
     }, {
-      name: 'Storing Data',
+      name: 'Ukládání dat',
       desc: [
         {
-          title: 'Pay once, securely store forever',
+          title: 'Zaplať jednou a měj vše bezpečně uloženo navždy',
           para: [
-            `You're likely to want to store data on the Network. Why? Because in return for a very small one-time Safecoin payment, your data will then be stored forever, encrypted and accessible anywhere in the world and only by you—unless you choose to share it.`
+            `Ukládání dat na síti je pro všechny výhodné. Proč? Protože za jeden, celkem malý poplatek v kryptoměně Safecoin, budou tvá data uložena navždy, v zašifrované podobě a přístupná po celém světě pouze tobě, pokud se nerozhodneš svá data sdílet.`
           ],
-          quote: `"Your credentials can't be stolen, because at no point are they ever stored on the Network"`
+          quote: `"Tvé přihlašovací údaje nemůžou být ukradnuty, jelikož nejsou v žádné podobě uloženy na síti"`
         }, {
-          para: `The Network is permissionless. That means you don't need to apply to a third party to take part—and, crucially, no-one can stop you. This happens  because the SAFE Network has Self-Authentication. It's the only decentralised Network in the world that lets someone securely and anonymously create an account and log in without needing a third party to manage the login process or to store and manage users' credentials. That means your credentials can't be stolen, because at no point are they ever stored on the Network itself.`
+          para: `Tato síť nevyžaduje od tebe žádná povolení. To znamená, že nepotřebuješ odsouhlasit podmínky třetích stran a hlavně, nikdo tě nemůže blokovat. Toto je možné, protože SAFE Network má vlastní osobní autentikátor. Je to jediná decentralizovaná síť na světě, která ti umožní vytvořit si účet bezpečně a anonymně a umožní přihlášení, bez autorizace třetí strany, která spravuje přihlašující údaje. To znamená, že tvé přihlašovací údaje nemohou být ukradeny, protože nejsou v žádném bodě uloženy na síti.`
         }, {
           title: 'Keeping your data private',
           para: [
