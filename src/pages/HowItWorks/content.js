@@ -87,24 +87,24 @@ export default {
           title: 'Web hostovaný kýmkoli, nikým nekontrolován',
           para: [
             'Bez centralizovaných serverů jsou data namísto toho uložena ve Vault. Lidé si stáhnout volně dostupnu aplikaci Vault do svého počítače, která po instalaci oznámí síti, že jste připraveni se zapojit. Nabídnutím volné kapcity připojení a místa na disku podpoří síť a ta je za to odmění SafeCoiny, kryptoměně, která běží v SAFE Network.',
-            'The Network just makes use of the space you’ve offered and asks you to manage whichever chunks of encrypted data it needs to ensure the system is safe and resilient. The key point here is that no-one (either computers or Network) can read this data. Each chunk of encrypted data is managed by its own Group. The Network decides which computers should be members of which Groups and this changes frequently. And at no time can a person who runs a Vault read any of the data that his computer is storing.',
-            'By running a Vault, your computer races to return any data that is requested by its owner. The rewards paid out by the system will be varied according the Network which varies the price of Safecoin in order to balance the Network in such a way that it consistently maintains around 30% of Vaults unused.'
+            'Síť využívá místo, které poskytuješ a umožníš ji, aby spravovala jakýkoli chunk šifrovaných dat, který potřebuje, aby zajistila, že systém je bezpečný a odolný. Klíčové je, že nikdo (ani počítač, nebo samotná síť) nemůže přečíst tyto data. Každý chunk šifrovaných dat je spravován svou skupinou. Síť rozhoduje, které počítače by měly být součástí jaké skupiny a to se mění často. V žádném případě nenastane případ, aby osoba provozující Vault mohla přečíst data, které jsou na daném počítači uložena.',
+            'Provozováním Vault tvůj počítač usiluje o to, aby co nejrychleji poskytl data požadované svým majitelem. Odměna vyplácena systémem bude záležet na stavu sítě, která v zájmu udržení rovnováhy reflektuje nabídku a poptávku a například se snaží si udržet přibližně 30% Vaultů pro rezervu.'
           ]
         }
       ]
     }, {
-      name: 'Network Architecture',
+      name: 'Síťová architektura',
       desc: [
         {
-          title: 'Anatomy of an Autonomous Network',
+          title: 'Anatomie autonomní sítě',
           para: [
-            'The SAFE Network is self-managing. It manages how computers can act on the Network in real-time, changing roles and responsibilities dynamically in response to real-time changes without any input from humans or businesses.',
-            'The Network is built on a foundation of open source software that allows computers to connect directly to each other, anywhere around the world. The Routing layer sits above this and sets the rules of the Network. This means that computers will act in a certain way that guarantees the Network will function efficiently without a centralised administrator.',
-            'These rules ensure that computers reach agreement on what is and isn’t allowed, and the order in which they happen. Decisions are made by computers in standalone Sections that have a history of good behaviour and thanks to a cutting-edge DAG-based consensus algorithm called PARSEC, the Network is guaranteed to reach agreement despite vast numbers of events taking place simultaneously every second around the world.'
+            'SAFE Network je autonomní. Řídí jak se počítače můžou chovat v síti v reálném čase, mění dynamicky role a odpovědnost v závislosti na průběhu aktuálních změn, bez jakéhokoliv vnějšího vlivu lidí, nebo společností.',
+            'Síť je založena na základech open source software, který umožní počítačům vzájemné přímé spojení, kdekoli po celém světě. Routingová vrstva je nad tímto a určuje pravidla na síti. To znamená, že počítače se budou chovat určitým způsobem, který zajišťuje síti její efektivní funkčnost, bez centrálního administrátora.',
+            'Tyto pravidla se postarají o to, aby počítače dosáhly shody na tom, co je a není povoleno a v jakém pořadí nastanou. Rozhodnutí provádějí počítače s důvěryhodnou historií v samostatných sekcích a díky nejvyspělejšímu algoritmu konsensusu typu DAG zvaného PARSEC, síť garantuje dosažení shody, navzdory velkému počtu událostí, které navstávají souběžně každou sekundu po celém světě.'
           ]
         }, {
-          title: 'Global Communication, Global Scale',
-          para: 'Whilst Sections stand alone, the Network is designed to enable trusted communications. It does this by ensuring that any contact between unknown computers is accompanied by cryptographic proof that every computer involved is a valid part of the Network. With Secure Message Relay comes Data Chains, a novel way which ensures that vast quantities of data can be passed reliably and securely between different nodes that have never known each other previously. All of this is made possible by the key design decision that we started with: all data is stored on the Network. Encrypted and ready to scale the globe from Day One.'
+          title: 'Globální komunikace v globálním měřítku',
+          para: 'Zatímco sekce stojí samostatně, síť je navržena tak, aby umožnila důvěrnou komunikaci. Toho dosáhne zajištěním, aby jakékoli spojení mezi neznámými počítači bylo doprovázeno kdyptografickým ověřením, kde každý zúčastněný počítač je ověřenou a platnou součástí sítě. Zabezpečený přenos zpráv (SMD) přichází s data chain- originální způsob, který zajistí, aby ohromný objem dat mohl být spolehlivě a bezpečně vypořádán mezi různými uzly, které se do té doby nikdy neznaly. Všechno toto je možné díky klíčovým rozhodnutím již od prvního návrhu, že všechna data jsou uložena přímo v síti, v šifrované podobě a připravena na globální nasazení od prvního dne.'
         }
       ]
     }
