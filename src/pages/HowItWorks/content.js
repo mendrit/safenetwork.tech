@@ -51,9 +51,9 @@ export default {
         }, {
           para: `Tato síť nevyžaduje od tebe žádná povolení. To znamená, že nepotřebuješ odsouhlasit podmínky třetích stran a hlavně, nikdo tě nemůže blokovat. Toto je možné, protože SAFE Network má vlastní osobní autentikátor. Je to jediná decentralizovaná síť na světě, která ti umožní vytvořit si účet bezpečně a anonymně a umožní přihlášení, bez autorizace třetí strany, která spravuje přihlašující údaje. To znamená, že tvé přihlašovací údaje nemohou být ukradeny, protože nejsou v žádném bodě uloženy na síti.`
         }, {
-          title: 'Keeping your data private',
+          title: 'Uchování tvých dat v soukromí',
           para: [
-            `Next, let's talk encryption. Imagine you want to store a photo. That data is protected by a number of layers of encryption. Your photo starts by being broken into pieces which are then encrypted with the other parts of that same file. This 'Self-Encryption' happens before the data ever hits the Network. So, unless you choose to override it, none of your data touches the Network unless it is encrypted. And it’s designed so that you're the only one that ever holds the key.`,
+            `Všechny soubory jsou uložena v šifrované podobě. Například, pokud si chceš uložit fotku, tak ta je chráněna řadou šifrovaných vrstev. Tvá fotka se rozdělí a na stejně malé díly, které se vícenásobně zašifrují částmi stejného souboru. Toto automatické šifrování probíhá na tvém počítači, než se soubor nahraje na síť. Vše je navrženo tak, aby klíč k tvému souboru jsi vlastnil/a pouze ty.`,
             `This is a very different approach to blockchain-based storage platforms which often secure just the pointer that shows where the data is stored. With data stored elsewhere, you can prove that data hasn’t been tampered with. But it doesn't protect the data itself. The SAFE Network has a different approach altogether. The data itself is encrypted and stored on the Network. That means no data stores to protect elsewhere.`
           ]
         }
