@@ -1,4 +1,4 @@
 export default {
-  title: '404. Yikes.',
-  desc: 'Looks like we’ve hit a snag, and the page your are looking for is not to be found; not here at least. If you have the time, it would be appreciated if you could [report it on the forum](https://safenetforum.org).'
+  title: '404. Ups.',
+  desc: 'Vypadá to, že jsi přišel na zádrhel a stránka kterou zrovna hledáš, nemůže být zobrazena a nebo neexistuje. Jestli máš chuť a čas, tak oceníme, když nás na to upozorníš na náš GitHub [Poslat report na GitHub](https://github.com/mendrit/safenetwork.tech).'
 }
