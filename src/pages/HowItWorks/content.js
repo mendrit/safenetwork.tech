@@ -54,39 +54,39 @@ export default {
           title: 'Uchování tvých dat v soukromí',
           para: [
             `Všechny soubory jsou uložena v šifrované podobě. Například, pokud si chceš uložit fotku, tak ta je chráněna řadou šifrovaných vrstev. Tvá fotka se rozdělí a na stejně malé díly, které se vícenásobně zašifrují částmi stejného souboru. Toto automatické šifrování probíhá na tvém počítači, než se soubor nahraje na síť. Vše je navrženo tak, aby klíč k tvému souboru jsi vlastnil/a pouze ty.`,
-            `This is a very different approach to blockchain-based storage platforms which often secure just the pointer that shows where the data is stored. With data stored elsewhere, you can prove that data hasn’t been tampered with. But it doesn't protect the data itself. The SAFE Network has a different approach altogether. The data itself is encrypted and stored on the Network. That means no data stores to protect elsewhere.`
+            `To je velmi rozdílný přístup oproti systémům na ukládání dat, založených na blockchain technologii, které často zabezpečí pouze cestu k místu, kde jsou soubory uloženy. S daty uloženými někde jinde, si můžeš být jist, že snimi nebylo neoprávěně nakládáno, ale už nezabezpečí samostná data. SAFE Network má celkově jiný přístup. Data jsou v šifrované podobě přímo uložena na síti, takže žádné data k ochraně někde jinde.`
           ]
         }
       ],
     }, {
-      name: 'Where Is Data Stored?',
+      name: 'Kde jsou data uložena?',
       desc: [
         {
-          title: 'Behold, The Serverless Internet',
+          title: 'Prozkoumej Internet bez serverů',
           para: [
-            'The Web is fragile today partly because data is stored in central locations. These become targets for hackers, thieves and data harvesters, or anyone else who wants to snoop around your personal data.',
-            'The SAFE Network doesn’t have these centralised servers. It has no single point which can be attacked, hacked or snooped upon. All uploaded data is broken into chunks, encrypted, dispersed across the Network, and continually moved between computers.',
-            'So how could an attacker search for your photo?  Without reading them, he’d have to know  which encrypted chunks made up any one file; where each piece was stored; control a number of computers that has responsibility for managing each of those different locations on the Network at any one point in time; and then somehow break the encryption (with no password!).',
-            `And that's a simplification. It's actually much harder than that. But that gives you a feel for just how secure data is on the SAFE Network. Once you take on board that it's the Network itself that makes decisions autonomously about locations and who does what, the challenge facing any attacker becomes even clearer.`
+            'Web je nyní zranitelný částečně proto, že data jsou uložena v centralizovaných data centrech. Tyto jsou terčem útoků různých hackerů, útočníkům sbírající databáze, nebo komukoli jinému, který chce sledovat tvá osobní data.',
+            'SAFE Network nemá tyto centralizované servery. Nemá přímý bod, na který by se mohl útočník zaměřit, hacknout nebo sledovat. Všechna data jsou rozdělana na kousky (chunks), zašifrována, rozptýlena po síti a průběžně měnící umístění mezi počítači.',
+            'Jak by mohl útočník najít tvé fotky? Bez jejich zobrazení by potřeboval vědět, který šifrovaný kousek byl vytvořen jakou části souboru, kde se každý kousek nachází, kontrolovat všechny počítače, které mají nepřetržitě odpovědnost za dostupnost a správu těchto kousků a nějakým způsobem prolomit šifrování bez znalosti hesla!',
+            `A to bylo jen zjednodušená ukázka. Ve skutečnosti je to ještě mnohem složitější, ale mělo by stačit na to, si vytvořit obrázek, jak bezpečné je mít svá data na SAFE Network. Jakmile se připojíš do sítě samotné, která dělá autonomně rozhodnutí o lokaci a co kdo dělá, bude ti mnohem jasnější, jaké výzvě by musel čelit jakýkoli útočník.`
           ]
         }
       ],
       aside: {
         position: 3,
-        title: 'When will it be finished?',
-        para: 'We’re at the dawn of a new Web, and the final pieces of the SAFE Network are being put in place',
+        title: 'Kdy bude vše připraveno?',
+        para: 'My jsme na počátku nového webu a poslední kousky SAFE Network se dávají dohromady.',
         CTA: {
-          name: 'See the Roadmap',
+          name: 'Přejdi na plán',
           url: '/roadmap/'
         }
       }
     }, {
-      name: 'Who Stores Your Data?',
+      name: 'Kdo uchovává tvá data?',
       desc: [
         {
-          title: 'The Web hosted by everyone, controlled by no-one',
+          title: 'Web hostovaný kýmkoli, nikým nekontrolován',
           para: [
-            'With no centralised storage, data is instead stored in Vaults. People download free Vault software to their home computers which tells the Network that they’re happy to take part. By providing storage and bandwidth to support the Network, you can get rewarded in Safecoin, the cryptocurrency that powers the Network.',
+            'Bez centralizovaných serverů jsou data namísto toho uložena ve Vault. Lidé si stáhnout volně dostupnu aplikaci Vault do svého počítače, která po instalaci oznámí síti, že jste připraveni se zapojit. Nabídnutím volné kapcity připojení a místa na disku podpoří síť a ta je za to odmění SafeCoiny, kryptoměně, která běží v SAFE Network.',
             'The Network just makes use of the space you’ve offered and asks you to manage whichever chunks of encrypted data it needs to ensure the system is safe and resilient. The key point here is that no-one (either computers or Network) can read this data. Each chunk of encrypted data is managed by its own Group. The Network decides which computers should be members of which Groups and this changes frequently. And at no time can a person who runs a Vault read any of the data that his computer is storing.',
             'By running a Vault, your computer races to return any data that is requested by its owner. The rewards paid out by the system will be varied according the Network which varies the price of Safecoin in order to balance the Network in such a way that it consistently maintains around 30% of Vaults unused.'
           ]
