@@ -1,80 +1,80 @@
 export default {
   banner: {
     title: 'Vítejte v nové\n digitální ekonomice',
-    desc: 'Safecoin is at the core of the Network. It’s money that lets you store data and rewards you when you contribute. Only with instant transactions, unlimited scaling—and no fees.',
+    desc: 'Safecoin je jádro celé sítě. Jsou to peníze, které ti umožní uložit data a odmění tě, pokud něčím přispěješ. Vše téměř okamžitě, s neomezenou škálovatelností a bez poplatků.',
   },
   video: {
-    caption: 'Safecoin: The Currency for Security and Privacy',
+    caption: 'Safecoin: Měna pro bezpečí a soukromí',
   },
   textBlock1: {
-    title: 'Share resources, get paid',
+    title: 'Sdílej své prostředky a získáš odměnu',
     para: [
-      'Safecoin is a cryptocurrency like no other. Digital cash with no public ledger. There’s no limit to the number of transactions which can take place instantly, privately and simultaneously.',
-      'Earning Safecoin is simple. Choose to become a Farmer and connect your computer to the Network. Watch as the Network automatically and continually moves chunks of data around the world to ensure efficiency. Proof of Resource takes the place of more expensive alternatives, like Proof of Work.',
-      'Safecoin can then be used to buy Network resources—like the one-time fee for uploading data—or exchanged for goods and services like any other currency.',
+      'Safecoin je kryptoměna, jako žádná jiná. Digitální peníze, bez veřejného přístupu do historie plateb. Zde není omezení v počtu transakcí, které mohou proběhnout okamžitě, zároveň a soukromě.',
+      'Vydělání si Safecoinů je jednoduché. Stačí si zvolit stát se farmářem a připojit svůj počítač do sítě. Pak stačí sledovat, jak síť automaticky a nepřetržitě přemisťují kousky dat po celém světě, aby zajistila efektivitu. "Proof of Resources" tedy důkaz zdrojů, zde plně nahrazuje mnohem dražší alternativu známou jako "Proof of Work".',
+      'Safecoiny můžou být použity k nákupu zdrojů na síti, jako jednorázový poplatek za nahrání dat, nebo výměnou za zboží a služby, jako každá jiná měna.',
     ],
   },
   textBlock2: {
-    title: 'Contribute and be rewarded',
+    title: 'Podílej se a získej SafeCoiny',
     para: [
-      'The current ad-supported internet model is broken. On SAFE, popular apps and sites are paid directly by the Network according to how much they get used.',
-      'Want to build an app or create content? The days of having to meet your website infrastructure costs are gone. With an open source platform, just build and deploy. Your personal data is no longer an asset for the profit of others.'
+      'Dnešní ekonomický model Internetu nefunguje tak, jak by měl. V SafeNetwork oblíbené aplikace a stránky, dostanou zaplaceno přímo sítí, dle toho, jak moc jsou používány.',
+      'Rád tvoříš obsah, nebo vyvíjíš apliakce? Už nebude potřeba pokrývat náklady za infrastrukturu. S open source platformou postačí vyvinout a nasadit. Tvá osobní data už nadále nebude komoditou pro zisk ostatních.'
     ],
     CTA: {
-      name: 'Start developing',
+      name: 'Začni vyvíjet',
       url: 'https://hub.safedev.org/'
     }
   },
   textBlock3: {
-    title: 'Pay Anonymously, be paid privately.',
+    title: 'Plať anonymně, dostaň zaplaceno soukromě.',
     para: [
-      'Safecoin acts as digital cash. Unlike blockchain based cryptocurrencies there is no public ledger; only the current and previous owner of each coin are known to each other. So you can be paid in privacy.',
-      'And you can even pay anonymously if you require it. It’s your choice.'
+      'Safecoin se chová jako digitální peníze. Na rozdíl od typu kryptoměn s blockchainem, zde není veřejný přístup do historie plateb. Pouze poslední a předchozí vlastník každé mince jsou si známi navzájem. Takže můžeš dostat zaplaceno v tajnosti.',
+      'A také platit anonymně. Je to jen tvá volba.'
     ]
   },
   textBlock4: {
-    title: 'Whaddaya mean, no Blockchain?',
+    title: 'Ehm, co znamená žádný blockchain?',
     para: [
-      'Unlike most cryptocurrencies Safecoin will not have a blockchain. This means it will be highly scalable, unburdened by an ever-growing ledger of transactions.',
-      'This, combined with what is known as Close Group Consensus mechanism, provides something truly special: transactions that are confirmed at network speed and with zero transaction costs.'
+      'Na rozdíl od většiny kryptoměn SafeCoin nebude mít blockchain. To znamená, že nemá problém se škálovatelností a neustále se zvětšující historií všech plateb.',
+      'V kombinaci s mechanismem ověřovaní transakcí známým jako "Close Group Consensus", zajistí něco velmi speciálního: transakce jsou potvrzeny rychlosti sítě a navíc s nulovými poplatky.'
     ],
     CTA: {
-      name: 'What is Close Group Consensus?',
+      name: 'Co je "Close Group Consensus"?',
       url: '/faq/#what-is-close-group-consensus'
     }
   },
   textBlock5: {
-    title: 'How do I buy Safecoin?',
+    title: 'Jak koupit SafeCoin?',
     para: [
-      'Safecoin is the currency that will power the SAFE Network. It will be available to be farmed, used or traded. You can’t buy them yet, but you can buy MaidSafeCoin.',
-      'MaidSafeCoin (MAID) is a token that was created in a crowdsale in 2014 to support the project, and each MAID will be exchanged for a Safecoin when the network launches. Based on the Omni protocol on top of the Bitcoin blockchain, MAID can be purchased and traded, but not farmed.'
+      'SafeCoin je kryptoměna, která bude jádrem SafeNetwork. Bude k dispozici pro farmáře, nákupy atd. Prozatím si je však nemůžeš nijak pořídit, ale můžeš si koupit MaidSafeCoin.',
+      'MaidSafeCoin (MAID) je token, který byl vytvořen v roce 2014, aby se podpořil vývoj tohoto projektu. Každý MAID bude vyměněn v poměru 1:1 za SafeCoin při startu síě. MAID je založen na Omni protokolu, který je nádstavbou Bitcoin blockchainu. Je dostupný na směnárnách, ale nelze jej získat farmářením.'
     ]
   },
   textBlock6: {
-    title: 'Buying MaidSafeCoin',
+    title: 'Kup si MaidSafeCoin',
     para: [
-      'MaidSafeCoin can be bought and traded at these exchanges. We’re adding new ones all the time.',
-      'MAID is based on the Omni protocol and there are no hard wallet options at this stage, so whilst you’re waiting to convert MAID to Safecoin at the launch of the Network, we’d always recommend that you store your coins in cold storage.'
+      'MaidSafeCoin může být koupen a vyměněn na těchto směnárnách. Neustále se snažíme rozšířit tento seznam  dostupných míst.',
+      'MAID je založen na Omni protokolu a je zde omezený počet možností jak spravovat MAID. Doporučujeme na harware peněžence Trezor, nebo bezpečně uložené v papírové podobě na Bitcoin adrese. Důležité je, mít před dalším přesunem na stejné adrese alespoň 0,0001 Bitcoinů na poplatek. Jedině tak budou bezpečně přpraveny na start sítě a změnu na SafeCoin '
     ]
   },
   exchanges: [
     {
-      name: 'Poloniex',
-      url: 'https://poloniex.com/exchange#btc_maid'
+      name: 'Bittrex',
+      url: 'https://international.bittrex.com/Market/Index?MarketName=BTC-MAID'
+    },
+    {
+      name: 'Chainrift',
+      url: 'https://www.chainrift.com/trading?coinpair=MAID/BTC&'
     },
     {
       name: 'HitBTC',
       url: 'https://hitbtc.com/MAID-to-BTC'
     },
-    {
-      name: 'Bittrex',
-      url: 'https://international.bittrex.com/Market/Index?MarketName=BTC-MAID'
-    },
   ],
   faqs: {
     sections: [
       {
-        title: 'Safecoin: Frequently Asked Questions',
+        title: 'Safecoin: Čato kladené otázky',
         items: [
           {
             question: 'What is Safecoin?',
