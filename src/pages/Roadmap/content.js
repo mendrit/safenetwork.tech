@@ -112,7 +112,7 @@ export default {
           }, {
             feature: 'SMD Zabezpečený přenos zpráv',
             desc: 'Důvěrná komunikace mezi uzly - zprávy z autentizovaných zdrojů',
-            status: 'Ve vývoji',
+            status: 'Hotovo',
             para: [
               'Zajistí, aby všechny zprávy byly poslány a podepsány a uzly bez znalosti odesílatele mohli zprávám důvěřovat. Toto řeší problém, kterému čelí mnohé jiné projekty založeny na blockchain technologii a je nezbytná pro síť, která přesouvá uzly dle svých potřeb.'
             ],
