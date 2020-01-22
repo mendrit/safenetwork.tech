@@ -36,10 +36,10 @@ export default {
     title: 'Ehm, co znamená žádný blockchain?',
     para: [
       'Na rozdíl od většiny kryptoměn SafeCoin nebude mít blockchain. To znamená, že nemá problém se škálovatelností a neustále se zvětšující historií všech plateb.',
-      'V kombinaci s mechanismem ověřovaní transakcí známým jako "Close Group Consensus", zajistí něco velmi speciálního: transakce jsou potvrzeny rychlosti sítě a navíc s nulovými poplatky.'
+      'V kombinaci s mechanismem ověřovaní transakcí známým jako „Close Group Consensus", zajistí něco velmi speciálního: transakce jsou potvrzeny rychlosti sítě a navíc s nulovými poplatky.'
     ],
     CTA: {
-      name: 'Co je "Close Group Consensus"?',
+      name: 'Co je „Close Group Consensus"?',
       url: '/faq/#what-is-close-group-consensus'
     }
   },
@@ -108,41 +108,41 @@ export default {
             ]
           },
           {
-            question: 'How do I buy MaidSafeCoin?',
+            question: 'Jak koupit MaidSafeCoin?',
             answer: [
-              'In essence all we have to do is buy bitcoin and exchange it for MaidSafeCoin. There are a few simple steps required to do this.',
-              '- Create an [OmniWallet](http://omniwallet.org/).\n- Purchase bitcoin using your preferred vendor.\n- Create a trade account on an exchange which lists MaidSafeCoin (e.g. on [Poloniex](https://www.poloniex.com/exchange#btc_maid)).\n- Send bitcoin to the trading account.\n- Trade bitcoin for MaidSafeCoin.\n- Withdraw / Transfer to OmniWallet.\n- MaidSafeCoin is now in your OmniWallet!'
+              'V podstatně vše co je potřeba, je koupit Bitcoin a vyměnit jej za MaidSafeCoin. Na to je potřeba pár jednoduchých kroků.',
+              '- Vytvoř si [OmniWallet](http://omniwallet.org/).\n- Pořiď si Bitcoin na tvém oblíbeném místě.\n- Otevři si účet ve směnárně, která obchoduje s MaidSafeCoin (např. [Chainrift](https://www.chainrift.com/trading?coinpair=MAID/BTC)).\n- Pošli Bitcoiny na svůj účet.\n- Proveď nákup MaidSafeCoin s Bitcoiny.\n- Withdraw / Pošli je na OmniWallet.\n- MaidSafeCoin jsou nyní ve tvé peněžence OmniWallet!'
             ]
           },
           {
-            question: 'Where can I store MaidSafeCoin?',
+            question: 'Kde uchovat MaidSafeCoin?',
             answer: [
-              'As MaidSafeCoin is built using the Omni protocol on the bitcoin blockchain it can be stored in any wallet. They may not be visible within all wallet software (due to lack of omni support) but the MaidSafeCoin will be OK there as long as your machine and private key for that address are secure. You will be able to view them using [omniexplorer.info](http://omniexplorer.info).',
-              'To create a new Omniwallet or open an existing one visit [omniwallet.org](https://www.omniwallet.org/).'
+              'MaidSafeCoin byl vytvořen díky Omni protokolu v rámci Bitcoin blockchainu. Může tak být uložen v kterékoli peněžence na Bitcoinové adrese, ke které máš soukromý klíč. Ty nemusí každý software správně rozpoznat, kvůli jejich chybějící podpoře Omni protokolu, ale MaidSafeCoin tam budou v bezpečí dokud soukromý klíč k dané peněžence je zabezpečen. Kdykoli je můžeš vidět díky [omniexplorer.info](http://omniexplorer.info).',
+              'K vytvoření nové, nebo ke vstupu do tvé stávající peněženky Omniwallet navštiv [omniwallet.org](https://www.omniwallet.org/).'
             ]
           },
           {
-            question: 'What is Farming?',
+            question: 'Co je farmaření?',
             answer: [
-              'Safecoin are given as an incentive to users for providing their resources to the Network. These resources are their: storage space, CPU, bandwidth and online time that enable the encrypted chunks of network data to be stored and retrieved from their computer.',
-              'The process of providing resources and receiving Safecoin in return is called ‘Farming’.',
-              `Each piece of encrypted network data is stored in a Farmer's ‘Vault’, a data storage and management location on the Farmer's computer which they cannot read, or access. The SAFE network is designed to self-manage these resources.`,
+              'SafeCoiny slouží jako pobídka a odměna uživatelům, kteří poskytují síti část výkonu svého počítače. Tyto zdroje jsou: místo na disku, CPU, internetové připojení a čas online, které umožní zašifrované data ze sítě uložit a kdykolit je potřeba, tak opět zpřístupnit z daného počítače.',
+              'Tento proces nabízení zdrojů počítače za odměnu v podobě SafeCoinů, je nazýván „farmaření".',
+              `Každý koused šifrovaných dat je uložen na disku počítače nazývaný „Vault". Vlastník vault jej udržuje v chodu, ale o správu dat se stará samotná síť, která je  k tomu navržena. Majitel tak nemůže přečíst, nebo získat přístup k šifrovaným datům v jeho vault.`,
 
             ]
           },
           {
-            question: 'How will Farming work?',
+            question: 'Jak bude farmaření probíhat?',
             answer: [
-              'When a user of the network requests some data, for example by browsing a website, a number of things happen: First, the client software makes a request for the required data chunks. This message (a GET request) is then propagated across the Network and when the chunk is found there is a competition between the Vaults in that Section to deliver it to the Network where it will be routed back to the requester.  The first Vault to deliver will have a chance of being rewarded with one Safecoin. This is described as a Farming Attempt.',
-              'Farming Attempt means: by delivering data chunks when requested, a Vault occasionally gains the opportunity to make a Farming Attempt. This consists of sending a validated request to a random Safecoin address. If an owned Safecoin already exists at that address, the Attempt fails. If there is no Safecoin there, one is created and awarded to the requesting Vault (i.e. a successful Farming Attempt has been made).',
-              'Farming is therefore when a Vault delivers data chunks that it is storing to the network and earns Safecoin in return. The probability of gaining a Farming Attempt is dependent on the farming_rate, which is a variable related to the quantity of available storage resources in the Network.'
+              'Když uživatel sítě požádá o nějaké data, například otevře novou webovou stránku, několik věcí se v ten okamžik stane: Zaprvé, klient prohlížeče vytvoří požadavek na daný soubor dat. Tato zpráva (GET požadavek) je rozeslána po síti a když je soubor nalezen, soupeří vaulty v dané sekci v rychlosti zaslání souboru danému klientovi.  První vault, který data doručí získá odměnu  podobě SafeCoin. To je tzv. „Pokus o farmaření".',
+              'Pokus o farmaření znamená: zasílání dat na každý požadavek. Vault má občas příležitost vytvořit pokus o farmaření. To spočívá v odeslání schváleného požadavku na náhodnou SafeCoin adresu. Pokud někdo vlastní Safecoiny na této adrese, tak pokus selže. Pokud je adresa prázdná, jeden se vytvoří a odměnu získá daný vault. (Tím se stal úspěšný pokus o farmaření).',
+              'Farmaření je tedy, když vault dodá data, která uložil a na oplátku získá SafeCoiny. Pravděpodobnost získání pokusu o farmaření závisí na „farming_rate", což je koeficient odvíjející se od množství dostupných zdrojů v síti.'
             ]
           },
         ],
       }
     ],
     CTA: {
-      name: 'More FAQs',
+      name: 'Více otázek',
       url: '/faq/'
     }
   }
