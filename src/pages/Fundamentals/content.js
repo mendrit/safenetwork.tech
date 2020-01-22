@@ -66,33 +66,33 @@ export default {
           ]
         },
         {
-          question: 'Scrub all Client IP addresses from Hop 1 of the overlay network (i.e on SAFE)',
+          question: 'Skrýt veškeré IP adresy klienta od prvního spojení při routingu připojení',
           answer: [
-            'After a User has started to communicate directly with anyone else after the first SAFE Network node that it connects to, the User’s IP address is scrubbed and untraceable. For clarity, we are using the phrase ‘Hop 1’ to refer to the transfer directly after that connection to the first SAFE Network node (not the hop that may take place from your computer to your home WiFi router, for example).'
+            'Jakmile uživatel začne přímo komunikovat s kýmkoli jiným, poté co se připojil k prvnímu uzlu SafeNetwork, uživatelova IP adresa je skryta a dále již nevystopovatelná. Pro objasnění prvním spojením myslíme první uzel v síti SafeNetwork, což s připojením přes domácí Wi-Fi router může být až několikátý bod, pokud kolem Vás nejsou blízké nody sítě SafeNetwork.'
           ]
         },
         {
-          question: 'Only accept more Vaults when it needs them',
+          question: 'Zapojit nové vaulty až jsou potřeba',
           answer: [
-            'Like any species or group of organisms, unbounded growth leads to demise. The SAFE Network could be attacked by a bad actor simply adding millions of nodes and then closing them down (or worse). To help prevent this, the Network will only allow new nodes to join when it needs them. This also nicely slows any attacker and dilutes them with good actors also trying to join. The Network can then balance supply and demand as it sees fit as opposed to relying on external controls.'
+            'Tak jako v přírodě může i zde nekontrolovatelný růst vést k zániku. Na SafeNetwork by někdo mohl zaútočit jen tím, že připojí milióny nových uzlů, které hromadně vypne (případně se pokusí zneužít i jinak). Jako obrana proti takovému útoku síť povolí pouze nové uzly, když opravdu potřebuje. To zpomalí případného útočníka a naředí jeho uzly s těmi, kteří se chtějí zapojit jen s dobrými úmysly. Síť tak může vyrovnávat poptávku a nabídku k jejímu prospěchu, než záviset na vnější kontrole.'
           ]
         },
         {
-          question: 'Increase farming rewards when it needs more resources (Vaults) and decrease rewards when resources are plentiful',
+          question: 'Zvýšit odměny farmářům, když je potřeba více zdrojů a snížit, když jich je dostatek',
           answer: [
-            'If the Network simply accepted any Vault that wanted to join, it would likely either be targeted by a botnet attack or an attacker might attempt to set up an overwhelming number of malicious nodes initially whilst the Network size is small at launch. The Network must be able to balance this supply of Vaults itself to avoid there being a large number of nodes that have very little data, as this would push the farming rates down.'
+            'Pokud by síť připojila každý nový uzel co se chce připojit, mohla by se stát terčem botnet útoku, nebo útočník by se snažil nasadit ohromné množství podvrhnutých uzlů v počátku sítě, když ještě není dostatečně robustní. Síť musí být schopna vyvažovat poptávku samotných vault, aby nevzniklo příliš moc uzlů s malým množstvím dat. To by vedlo k snížení odměn všem farmářům.'
           ]
         },
         {
-          question: 'Rank nodes over time and increase trust in higher ranked nodes',
+          question: 'Hodnotit vaulty v průběhu času a zvýšit důvěru těm nejlépe hodnoceným',
           answer: [
-            'A crucial part of Node Ageing (one of the ways by which the SAFE Network prevents Sybil attacks) comes from the fact that the Network is designed to only permit the most trustworthy nodes within each of the Close Groups to vote on the decisions in the Network.'
+            'Zásadní část „stárnutí uzlů" (což je jedna z cest jak se bránit Sybil útokům) spočívá ve faktu, že síť  je navržena, aby bylo umožněno pouze těm nejdůvěryhodnějším uzlům v rámci každé sekce hlasovat při rozhodování v rámci sítě.'
           ]
         },
         {
-          question: 'Not have servers',
+          question: 'Bez serverů',
           answer: [
-            'The SAFE Network will never rely on servers (as the term is traditionally understood) as to do so introduces a third party weakness that undermines the entire Network.'
+            'SafeNetwork nikdy nebude závislý na serverech (tak jak jim dnes rozumíme), které by přinesly slabiny třetích stran a mařily význam celé sítě.'
           ]
         },
         {
