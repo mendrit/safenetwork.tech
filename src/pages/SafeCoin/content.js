@@ -77,34 +77,34 @@ export default {
         title: 'Safecoin: Čato kladené otázky',
         items: [
           {
-            question: 'What is Safecoin?',
+            question: 'Co je Safecoin?',
             answer: [
-              `Safecoin are digital tokens that are generated automatically by the SAFE Network and reside on the SAFE Network. The Network will autonomously confirm account balances to wallets and allow transactions to take place. Safecoin are transferred using the digital signature of the coin’s last owner. This operation is 'network atomic'—in other words,the Network ensures that all copies update to reflect the transaction. This is a different approach to the blockchain mechanism employed in other projects, such as Bitcoin.`,
-              'There can be many millions of transactions per second on the SAFE Network and the larger it becomes the more transactions per second can be executed. A Safecoin only records the previous and current owners. By doing so, it ensures that the current owner was transferred ownership properly by the last owner. This allows coins to be transferred between people very easily and without delay.',
-              'Please note that Safecoin will not be active until the network goes live. See MaidSafeCoin for current proxy token.'
+              `Safecoin je digitální token, který je generován automaticky sítí SafeNetwork a funguje pouze v této síti. Síť automaticky potvrdí zůstatek v dané peněžence a umožní proběhnutí transakcí. SafeCoiny se posílájí díky digitálnímu podpisu posledního vlastíka. Tato operace je "atomická" - jinými slovy, síť zajistí, aby všechny kopie zaznamenaly změnu zůstatku. Toto je odlišný způsob, narozdíl od blockchainových mechanismů použitých v jiných projektech, jakým je například Bitcoin.`,
+              'Zde můžou být milióny transakcí za sekundu a čím robustnější SafeNetwork bude, tím víc transakcí ve stejném okamžiku je možné provést. SafeCoin zaznamená pouze posledního a předcházejícího vlastníka. Díky tomu, je zajištěno, aby vlastnictví bylo převedeno vždy v pořádku. To umožní, aby transakce mezi lidmi byly vyřízeny jednoduše a bez zpoždění.',
+              'Prosím měj na paměti, že SafeCoin bude aktivní pouze až se startem sítě. Zatím je pouze MaidSafeCoin jako proxy token.'
             ]
           },
           {
-            question: 'How is Safecoin used on the network?',
+            question: 'Jaké má SafeCoin v síti využití?',
             answer: [
-              'Safecoin is the currency of the SAFE Network. It is an incentive mechanism that rewards Users and developers, as well as providing access to network services.',
-              'Without any human intervention, the SAFE Network pays out Safecoin automatically to Farmers (users who join the Network by contributing their computing resources) and to Builders (application developers, who get paid automatically depending on how much their applications are used).',
-              'In addition, Core Developers who improve the core SAFE Network codebase can also earn Safecoin by providing bug fixes and new features.',
-              `Safecoin only lives on the SAFE Network. It is stored in a User's wallet and can be used to buy network services, such as increased storage space and access to network applications. There is no set distribution time for the 4.3 billion Safecoin produced during the life of the SAFE Network.`,
-              'Please note that Safecoin will not be active until the network goes live. See for current proxy token.'
+              'SafeCoin je měnou v SafeNetwork. Je to pobídkový mechanismus, který odměňuje vývojáře a uživatele, ale také umožňuje přístup ke službám na síti.',
+              'Bez jakéhokoliv lidksého zásahu, SafeNetwork automaticky vyplací v SafeCoinech farmáře (uživatele, kteří poskytují část výkonu svého počítače síti) a vývojáře (tvůrce aplikací, kteří dostanou automaticky zaplaceno, podle toho, jak moc je jejich aplikace používána).',
+              'Nutno dodat, že také vývojáři podílející se na vývoji samotného jádra sítě, mohou získat odměnu za opravu bugů, nebo přidáním nových prvků a možností.',
+              `SafeCoin existuje pouze v SafeNetwork. Je uložen v peněžence uživatele a může být použit k nákupu služeb na síti, jakým je místo na síti pro vlastní data, nebo přístup k síťovým aplikacím. Je zde limit pro maximálně 4,3 miliardy SafeCoinů, ale bez časového rámce na jejich uvolnění.`,
+              'Prosím měj na paměti, že SafeCoin bude aktivní pouze až se startem sítě. Zatím je zde jen proxy token'
             ]
           },
           {
-            question: 'How do I buy Safecoin?',
+            question: 'Kde můžu koupit SafeCoin?',
             answer: [
-              'Safecoin won’t be issued until the Network goes live so they cannot be purchased at the moment. Currently you can buy MaidSafeCoin which will be swapped on a 1-to-1 basis for Safecoin when it is released.'
+              'SafeCoin nelze koupit, dokud nepoběží SafeNetwork. Nyní lze pořídit pouze proxy token zvaný MaidSafeCoin, který při startu sítě bude potřeba vyměnit v poměru 1:1 za SafeCoin.'
             ]
           },
           {
-            question: 'What is MaidSafeCoin?',
+            question: 'Co je MaidSafeCoin?',
             answer: [
-              `MaidSafeCoin is a proxy token that was released during MaidSafe's crowd sale and will be swapped for Safecoin on a 1:1 basis when Safecoin is released. MaidSafeCoin is listed on the bitcoin blockchain and can be purchased on a number of exchanges including:`,
-              '- [Poloniex](https://www.poloniex.com/exchange#btc_maid)\n- [HitBTC](https://hitbtc.com/MAID-to-BTC)\n- [Bittrex](https://international.bittrex.com/Market/Index?MarketName=BTC-MAID)'
+              `MaidSafeCoin je proxy token, který byl vytvořen během MaidSafe crowd sale a slouží jen k obchodování a pozdější výměny za SafeCoin v poměru 1:1 při startu sítě. MaidSafeCoin je v rámci Omni protokolu na Bitcoin blockchainu a lze jej pořídit v několika směnárnách:`,
+              '- [Bittrex](https://international.bittrex.com/Market/Index?MarketName=BTC-MAID)\n- [Chainrift](https://www.chainrift.com/trading?coinpair=MAID/BTC)\n- [HitBTC](https://hitbtc.com/MAID-to-BTC)'
             ]
           },
           {
