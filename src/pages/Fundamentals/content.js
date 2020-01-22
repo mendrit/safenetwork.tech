@@ -1,68 +1,68 @@
 export default {
-  title: 'Network Fundamentals',
-  desc: 'There are certain concepts that have driven every stage of the design of the Network ever since the project started in 2006. Since that time, the SAFE community has grown and we’re delighted to see just how many people and projects have come to recognise the vital importance of a global, secure and private decentralised platform for storage and communication.',
+  title: 'Zásady SafeNetwork',
+  desc: 'Zde je určitý koncept, který provází každou fázi vývoje sítě, již od jejího počátku v roce 2006. Od té doby tato komunita narostla a nás těší vidět kolik lidí a projektů zde přišlo, aby poznali opravdový význam celosvětové bezpečné a soukromé decentralizované platformy pro uchování dat a komunikaci.',
   qa: {
     section: {
-      title: 'The Network will...',
+      title: 'SafeNetwork bude...',
       items: [
         {
-          question: 'Allow a person to create an account and login anonymously and without intervention',
+          question: 'Dovolí osobám si vytvořit vlastní účet s anonymním přihlášením a to bez překážek',
           answer: [
-            'Creating a new account and logging into the Network will never require a third party. Those processes will always be carried out directly between the User and the Network. It is worth noting that (for technical reasons) account creation may require the presence of Safecoin in the user’s account in certain circumstances (if this, for example, minimises the possibility of one entity creating millions of new accounts to attack the Network).'
+            'K vytvoření nového účtu a přihlášení se do sítě, nebude nikdy potřeba třetí strana. Tento process bude vždy veden přímo mezi uživatelem a sítí. Je však potřeba dodat, že z technických důvodů (aby se zamezilo útočníkům vytváření milionů účtů z důvodu zahlcení sítě apod.) vytvoření účtu může v určitých případech vyžadovat přítomnost SafeCoinu.'
           ]
         },
         {
-          question: 'Enable Users to securely and with no controlling intermediaries share information and messages',
+          question: 'Umožní uživatelům bezpečně a bez prostředníků kontrolující obsah sdílet informace a zprávy',
           answer: [
-            'The SAFE Network will never have any third parties who have the ability to either read or store the information sent by a User (unless that User consents in some way).'
+            'SafeNetwork nikdy nebude mít účty třetích stran, které by mohly číst, nebo si ukládat informace zaslané samotnými uživateli. (Pokud to uživatel nebude přímo vyžadovat).'
           ]
         },
         {
-          question: 'Allow the transfer of Safecoin to any User free of transaction costs',
+          question: 'Dovolí posílat SafeCoin komukoli bez transakčních poplatků',
           answer: [
-            'Each User will be able to use any of their identities as a wallet address in order to be able to send and receive Safecoin.'
+            'Každý uživatel bude moci použít jakoukoli svou identitu a adresu své peněženky, aby mohl posílat a obrdžet SafeCoin.'
           ]
         },
         {
-          question: 'Enable Users to anonymously create and share data worldwide',
+          question: 'Umožní uživatelům vytvářet a sdílet data po celém světě anonymně',
           answer: [
-            'The Network will always ensure that the User has the ability to send transaction messages and posts with a temporary and single-use ID that is not linked to any known identity on the Network.'
+            'Síť vždy zajistí, aby uživatel měl možnost poslat transakce a zprávy s dočasnou identitou, která nemá stopy k žádné jiné osobě (identitě) na síti.'
           ]
         },
         {
-          question: 'Let anyone browse content anonymously and free of charge',
+          question: 'Nechá kohokoli si prohlížet obsah anonymně a bez poplatků',
           answer: [
-            'It is crucial that the new decentralised web is without barriers. One of the most important foundations for a global, collaborative platform is that anyone can access public content for free at any time without the need to create an account.'
+            'Je zásadní, aby nový decentralizovaný web byl bez bariér. Jedna z nejvíce důležitých zásad pro celosvětovou společnou platformu je, že kdokoli má přístup k veřejnému obsahu kdykoli zdarma a bez potřeby zakládání účtu.'
           ]
         },
         {
-          question: 'Allow Users to associate multiple identities to their account',
+          question: 'Dovolí uživatelům spravovat vícero identit na jednom účtu',
           answer: [
-            'Each Client Account manages information about the User which will include several identities. These identities are likely to be cryptographic key pairs.'
+            'Každý klient účtu spravuje informace o uživateli, což zahrnuje i vícero identit. Tyto identity jsou jakoby kryptografické páry klíčů.'
           ]
         },
         {
-          question: 'Let Users use any of their identities to send/receive Safecoin',
+          question: 'Nechá uživatele použít jeho jakoukoli identitu k poslání/obdržení SafeCoin',
           answer: [
-            'Each individual must be able to use any of their identities as a wallet address in order to be able to send and receive Safecoin.'
+            'Každý jednotlivec musí mít možnost použít jakoukoli svou identitu jako adresu peněženky, aby mohl poslat i obdržet SafeCoiny.'
           ]
         },
         {
-          question: 'Store data in perpetuity',
+          question: 'Uloží data na věčnost',
           answer: [
-            'All public/published data on the Network will be immutable and available on the Network in perpetuity. In exactly the same way as the Internet Archive stores versions of website that were published with mistakes, it will be impossible to delete any data from the Network after it has been uploaded. That does not mean that you won’t be able to change data - you will be able to make append-only changes, i.e. historic, earlier versions of data will always remain stored on the Network (whether they are accessible or not).'
+            'Veškeré veřejné data na síti budou nezměnitelné a dostupné na síti na věčnost. Podobně nyní funguje například web archive, který ukládá různé verze stránek i se zveřejněnými chybami. Bude nemožné smazat jakékoli data ze sítě, poté co byly nahrány na síť. To neznamená, že nemůžete změnit data, ale budou to pouze „sekvence", kde předhozí verze dat zůstane zachována (ať už jsou veřejné, nebo neveřejné).'
           ]
         },
         {
-          question: 'Never require passwords to be stored on the Network or on the machines used by the Clients to access the Network',
+          question: 'Nikdy nevyžadovat heslo, aby bylo uloženo na síti, nebo na zařízení použitých klientem k přístupu na síť',
           answer: [
-            'The Network itself will never hold passwords as this is a common cause of data loss. Instead, a User will only ever be required to enter a password locally on the device which they use to access the Network.'
+            'Síť nebude nikdy uchovávat heslo, jelikož je to běžný způsob jak přijít o data. Místo toho bude uživatel potřebovat zadat heslo pouze lokálně na zařízení pro přístup na síť.'
           ]
         },
         {
-          question: 'Allow any User, on any machine, to access the network and leave no trace of that User on the machine',
+          question: 'Dovolí každému uživateli z jakéhokoli zařízení přístup na síť a nezanechá po něm žádné stopy',
           answer: [
-            'The Network must ultimately be accessible to any User on any device. When that User logs out from the Network and leaves that machine, there must be no evidence (other than any software downloaded to access the Network, such as the browser) that shows what activity the User undertook on the SAFE Network.'
+            'Síť musí být dostupná pro každého z jakéhokoli zařízení. Po odhlášení uživatele ze sítě, nezůstanou v zařízení žádné stopy (kromě toho, že pro přístup na síť je potřeba prohlížeč, případně jiný software), které by ukázaly na aktivity, co daný uživatel na síti dělal.'
           ]
         },
         {
