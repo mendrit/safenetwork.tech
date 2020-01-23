@@ -96,33 +96,33 @@ export default {
           ]
         },
         {
-          question: 'Digitally sign all transactions',
+          question: 'Digitální podpis všech transakcí',
           answer: [
-            'By ensuring that all transactions are digitally signed, the Network is able to ensure that the transactions have been authorised in accordance with the rules of the Network.'
+            'Zaručením se, že všechny transakce mají digitální podpis, je síť schopna zajistit, aby všechny transakce byly autorizovány dle pravidel sítě.'
           ]
         },
         {
-          question: 'Ensure that Client-to-Client direct messages are free. It will charge, however, for Client-to-Client messages involving traversal through the SAFE Network',
+          question: 'Zajistí, aby přímé spojení klient-klient bylo vždy zdarma. Poplatky však budou, pokud zprávy mezi klienty přejdou přes část SafeNetwork',
           answer: [
-            'Clients are software programs that allow users to connect to the SAFE Network. There will never be charge levied by the Network if messages are sent directly between two Clients. However, any indirect messages that are sent between Clients that involve travel across the Network will carry a cost.'
+            'Klienti jsou software programy, které umožní připojit uživatele do SafeNetwork. Zde nikdy nebude poplatek, pokud zprávy jsou zaslány přímo mezi dvěma klienty. Přestože, jiné nepřímé zprávy mezi klienty, které zahrnou část cesty přes síť, budou za určitou cenu.'
           ]
         },
         {
-          question: 'Never use time as a network tool (although nodes may use local durations)',
+          question: 'Nikdy nepoužít čas jako síťový nástroj (přesto uzly mohou počítat s místním trváním)',
           answer: [
-            'There is no concept of time in a decentralised network such as SAFE unless it reaches out to centralised servers and services. SAFE uses a completely event-driven paradigm to circumvent the need to try and synchronise and then use time periods as valid tools on the network. These periods require magic numbers which would need to be set by developers and this is something the Network avoids with rigour.'
+            'V decentralizované síti jakou je SafeNetwork, není žádný koncept času, dokud se nepoužijí služby centralizovaných serverů. SafeNetwork používá událostmi řízenené paradigma k obejití nutnosti se synchronizovat a poté použije časové období jako platné nástroje v síti. Tyto časové období vyžadují určité konstanty nastavené přímo vývojáři a to je přesně ten důvod, kterému se chce síť naprosto vyhnout.'
           ]
         },
         {
-          question: 'Only ever use encrypted services and encrypted traffic',
+          question: 'Vždy použít pouze šifrované služby a síťový provoz',
           answer: [
-            'Services or traffic must be encrypted if they are to be used by the SAFE Network.'
+            'Služby, nebo síťový provoz musí být šifrovány, pokud mají být použity v SafeNetwork.'
           ]
         },
         {
-          question: 'Allow real-time upgrades in a secure manner (i.e the Network will refuse upgrades that could break it)',
+          question: 'Umožnit aktualizace v reálném čase bezpečným způsobem (síť odmítne aktualizace, které by ji ohrozily)',
           answer: [
-            'The Network must be able to roll out improvements which are compatible with at least the previous version of the Network software, in order to ensure that the new iteration is an improvement in practice. As this will require significant effort, each node may run upgrades in parallel to existing working code before upgrading.'
+            'Síť musí být schopna přijmout vylepšení, které je kompatibilní alespoň s poslední verzí síťového software. Za tímto účelem je potřeba si ověřit chování nového vylepšení v praxi. Ačkoli to bude vyžadovat značné úsilí, každý uzel by měl spustit upgrade souběžně s aktuální verzí, než se rozhodne opravdu aktualizovat.'
           ]
         },
       ]
