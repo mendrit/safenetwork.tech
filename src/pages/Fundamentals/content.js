@@ -129,24 +129,24 @@ export default {
     }
   },
   safecoin: {
-    title: 'Safecoin',
+    title: 'SafeCoin',
     lists: [
       {
         name: 'A.',
-        para: 'Safecoin is the unique incentivisation mechanism built into the SAFE Network. All Safecoins are recycled when they are paid to the Network in exchange for resources. On launch, Safecoin will be distributed as follows: (1) Pay the creators of the Network (MaidSafe shareholders) 5% of the total Safecoin; (2) Pay the 2014 crowdsale investors of the Network 10% of the total Safecoin.'
+        para: 'SafeCoin je unikátní motivační mechanismus, který je přímou součástí SafeNetwork. Všechny SafeCoiny je možné opětovně použít, pokud jimi bylo zaplaceno za použití sítě. Při spuštění SafeNetwork bude distribuce Safecoinů probíhat následujím způsobem: (1) Tvůrci sítě (podíloví vlastníci MaidSafe) obdrží 5% ze všech SafeCoinů; (2) Investorům z crowdsale v roce 2014 síť vyplatí 10% ze všech SafeCoinů.'
       },
       {
         name: 'B.',
-        para: 'Safecoin will be distributed on an ongoing basis: (1) Pay Vaults for providing service (85% of rewards); (2) Pay developers who produce apps that people use (10% of rewards); (3) Pay the maintainers of the Network code (5% of rewards)'
+        para: 'Distribuce SafeCoinů na denní bázi bude probíhat tímto způsobem: (1) Odměna pro vaulty za jejich služby (85% celkové odměny); (2) Odměna vývojařům aplikací, kterou uživatelé používají (10% celkové odměny); (3) Platba pro kodéry starající se o další vývoj SafeNetwork (5% celkové odměny)'
       },
     ],
     notes: {
-      title: 'Note:',
-      para: 'Whilst the above explanation is a handy approximation of the split, the rewards will in fact be dynamically adjusted according to the Farming Rate determined by the Network:',
+      title: 'Poznámka:',
+      para: 'Zatímco výše popsané vysvětlení je přibližně odpovídající budoucímu rozdělení odměny, ta ale ještě bude pružně reagovat v závislosti na hodnotě „farming rate" určené sítí:',
       points: [
-        'Farmers who run the Vaults are paid at 100% of the Farming Rate for all GETs on the Network. I.e. 86.95% (100/115) of all rewards.',
-        'Application Developers are paid at 10% of the Farming Rate for all GETs on the Network (that relate to their applications). I.e. 8.695% (10/115) of all rewards.',
-        'Maintainer Developers are paid at 5% of the Farming Rate for all GETs on the Network. I.e. 4.348% (5/115) of all rewards.'
+        'Farmáři, kteří provozují svůj vault dostanou 100% z aktuálního „farming rate" za všechny vyřízené požadavky GET v síti. Tj. 86.95% (100/115) celkové odměny.',
+        'Vývojáři aplikaci dostanou 10% z aktuálního „farming rate" za všechny vyřízené požadavky GET v síti (které se týkají jejich aplikace). Tj. 8.695% (10/115) celkové odměny.',
+        'Kodéři SafeNetwork získají 5% z aktuálního „farming rate" za všechny vyřízené požadavky GET v síti. Tj. 4.348% (5/115) celkové odměny.'
       ]
     }
   }
