@@ -22,43 +22,43 @@
           ]
         },
         {
-          question: 'Why should I use the SAFE Network?',
+          question: 'Jaký je důvod používat SafeNetwork?',
           answer: [
-            'Applications and programs on the existing Internet compromise your privacy through advertising and effectively control your data, granting you access when you login. On the SAFE Network, only you control who has access to your data and the distributed security features make your data safer than ever before. If you contribute some of your spare computing power to the network, you will be compensated for doing so with the Network’s built-in token, [Safecoin](/safecoin).'
+            'Aplikace a programy na dnešním Internetu zneužívají tvé soukromí k reklamním účelům a efektivní kontrole dat, výměnou za umožnění ti se přihlásit svým heslem. Na SafeNetwork, pouzy ty kontroluješ, kdo má přístup k jakým datům a decentralizovaný bezpečnostní systém zajistí, aby tvá data byly bezpečněji uložena, než kdykoli předtím. Pokud se navíc rozhodneš, poskytnout síti část nevyužitého výkonu svého počítače, ta ti na plátku poskytne kompenzaci ve formě síťového tokenu zvané [Safecoin](/safecoin).'
           ]
         },
         {
-          question: 'Who owns the SAFE Network?',
+          question: 'Kdo vlastní SafeNetwork?',
           answer: [
-            '**No one.**',
-            'The SAFE Network is [open source](https://github.com/maidsafe). Our vision is to create a resource that can be used by everyone to spread all human knowledge and to facilitate sharing across the planet, regardless of country of residence, culture, or economic background.'
+            '**Nikdo.**',
+            'SafeNetwork je [open source](https://github.com/maidsafe). Naše vize je vytvořit platformu, kterou může kdokoli použít, aby šířil všechny lidské znalosti a usnadnil sdílení po celé planetě, bez ohledu na místo bydliště, zemi, kulturu, nebo ekonomické a sociální zázemí.'
           ]
         },
         {
-          question: 'Who are MaidSafe?',
+          question: 'Kdo jsou MaidSafe?',
           answer: [
-            'Started in 2006 by Scottish engineer David Irvine, MaidSafe are the core developers of the SAFE Network.  It’s a small team comprised of: thinkers, inventors, tinkerers, PHDs, engineers and designers. Although based in Ayr, Scotland, we work remotely with talents from many different cultures and countries, reflecting the users that we serve. Despite this variety, we all share a single mission: providing security and privacy for everyone.',
-            '_[Visit Maidsafe.net](https://maidsafe.net)_'
+            'Založena v roce 2006 Skotským inženýrem David Irvine, MaidSafe je nadace hlavních vývojářů SafeNetwork.  Je to menší tým složený z: myslitelů, vynálezců, objevitelů, doktorů, inženýrů a designérů. I přes sídlo ve Skotském  Ayr, pracujeme vzdáleně s talenty z mnoha rozličných kultur a zemí, reflektující uživatele, pro které tvoříme. Přes tuto rozdílnost, my všichni sdílíme stejnou myšlenku: Poskytnout bezpečnost a soukromí pro každého.',
+            '_[Navštiv Maidsafe.net](https://maidsafe.net)_'
           ]
         },
         {
-            question: 'What do I need in order to browse the SAFE Network?',
+            question: 'Co potřebuji abych mohl prohlížet SafeNetwork?',
             answer: [
-              '[Download the SAFE Network App!](https://github.com/maidsafe/safe-network-app/releases)'
+              '[Stáhni si aplikaci SafeNetwork!](https://github.com/maidsafe/safe-network-app/releases)'
             ]
           },
         {
-          question: 'How do I get involved with The SAFE Network community?',
+          question: 'Jak se můžu zapojit do SafeNetwork komunity?',
           answer: [
-            'The Community is most active on the [SAFE Network Forum](https://safenetforum.org/) and we’d suggest starting in the [beginners section](https://safenetforum.org/c/beginners).',
-            '*[Visit the Forum](https://safenetforum.org/)*'
+            'Komunita je nejvíce aktivní na [SafeNetwork fóru](https://safenetforum.org/) a my doporučujeme začít v [sekci začátečníků](https://safenetforum.org/c/beginners).',
+            '*[Navštiv fórum](https://safenetforum.org/)*'
           ]
         },
         {
-          question: 'How do I get help?',
+          question: 'Kdo mi s tím pomůže?',
           answer: [
-            'The [SAFE Network Community](https://safenetforum.org) is the place to head to for all questions on the Network.',
-            '_[Visit the Forum](https://safenetforum.org/)_'
+            '[SafeNetwork fórum](https://safenetforum.org) je místo, kam zamířit pro všechny tvoje otázky, když si nevíš rady ohledně SafeNetwork.',
+            '_[Navštiv fórum](https://safenetforum.org/)_'
           ]
         }
       ]
@@ -89,10 +89,10 @@
     //   ]
     // },
     {
-      title: 'How it works',
+      title: 'Jak to funguje',
       items: [
         {
-          question: 'What is a Vault?',
+          question: 'Co je to Vault?',
           answer: [
             'The SAFE Network is made up of nodes called Vaults. A Vault is a program that runs on a device which connects the machine to the Network. Collectively, Vaults manage the storage of all data on the Network by managing the movement of chunks of encrypted user data that are stored across the Network. No Farmer (user) can ever decrypt a chunk of data that his or her Vault receives and, in return for providing the storage capacity to the Network, is rewarded with Safecoin.',
             'Vaults ensure that the events occurring on the Network are valid. They are clustered into small groups, each with responsibility for looking after the data stored within a Section (a certain range of addresses).',
