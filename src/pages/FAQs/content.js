@@ -5,20 +5,20 @@
       title: 'About the SAFE Network',
       items: [
         {
-          question: 'What is the SAFE Network?',
+          question: 'Co je SafeNetwork?',
           answer: [
-            'The SAFE (Secure Access For Everyone) Network is a new secure way to access apps that value the security of your data above all else. Downloading the free SAFE software will provide access to: messaging, apps, email, social networks, data storage, video conferencing, and much more.',
-            'Rather than using data centres and servers which are prone to data theft and surveillance, as is common on today\'s Internet, the SAFE Network uses advanced peer-to-peer technology that joins together the spare computing capacity of all SAFE users, creating a global network.',
-            'The SAFE Network is made up of the unused hard drive space, processing power and data connection of its users. It offers a level of security and privacy not currently available on the existing Internet and turns the tables on companies, putting users in control of their data, rather than trusting it to organisations.',
-            'By providing your unused computing resources to SAFE, you will be paid in a network token called [Safecoin](/safecoin).'
+            'Název vychází z počátečních písmen SAFE (Secure/Bezpečný Access/Přístup For/Pro Everyone/Všechny). Síť je nová bezpečná cesta, která zpřístupní aplikace, kde bezpečnost je priorita před vším ostatním. Stažením SafeNetwork software, získáte zdarma přístup k posílání zpráv, aplikacím, sociálním sítím, uložišti dat, video hovorům a mnohem více.',
+            'Raději, než využíváním centrálních datových serverů, které jsou náchylné ke ztrátě a zneužití dat, jak se dnes stále často děje, SafeNetwork využívá pokročilou p2p technologii, která propojuje nevyužívaný výpočetní výkon všech uživatelů SafeNetwork, kteří společně tvoří celosvětovou síť.',
+            'SafeNetwork využívá volné místa pevných disků, výpočetní výkon a část kapacity inernetového připojení svých vlastních uživatelů. Tím dosáhne takové úrovně bezpečnosti a soukromí, která doposud není dostupná na dnešním Internetu a obrátí  trend, kde společnosti mají kontrolu nad daty svých uživatelů. Právě jen samotní uživatelé budou mít absolutní kontrolu nad svými daty a již nebudou muset věřit cizím společnostem.',
+            'Za poskytnutí vlastních nevyužitých zdrojů svého počítače, SafeNetwork bude vyplácet odměnu v kryptoměně zvané [Safecoin](/safecoin).'
           ]
         },
         {
-          question: 'What is an Autonomous Network?',
+          question: 'Ce je to autonomní síť?',
           answer: [
-            'An Autonomous Network is one which has no human gatekeepers. Anyone is able to join and—crucially—no-one can be prevented from taking part.',
-            'From the moment you upload your encrypted data, no human is required to ensure that your data remains secure and accessible until you alone choose to access it. Without the involvement of humans, the SAFE Network intelligently moves chunks of your data between nodes that it also constantly reassigns to different groups in order to provide total security and privacy at all times. You decide what information you will store—and the autonomous Network secures it to ensure that you retain total control.',
-            '_[Read more about Autonomous Networks](https://metaquestions.me/2017/08/12/the-impossible-network/)_'
+            'Autonomní síť je ta, která nemá lidské správce. Kdokoli se může připojit a zásadně nikomu nelze zabránitv v zapojení se.',
+            'Od momentu kdy na síť nahraješ svá šifrovaná data, žádnému dalšímu člověku není umožněň přístup k nim, dokud mu jej ty nepovolíš. Bez účasti lidí SafeNetwork dle svých potřeb chytře přesouvá části tvých dat, mezi různými uzly, které je také neustále předávájí jiným skupinám sítě tak, aby byla vždy zajištěna absolutní bezpečnost a soukromí v každém okamžiku. Ty se rozhodneš, které informace uložíš a autonomní síť zajistí, aby jsi pouze ty měl nad nimi vždy absolutní kontrolu.',
+            '_[Zjisti více o autonomní síti](https://metaquestions.me/2017/08/12/the-impossible-network/)_'
           ]
         },
         {
