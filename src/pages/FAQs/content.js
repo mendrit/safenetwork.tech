@@ -115,20 +115,20 @@
           ]
         },
         {
-          question: 'What is Proof of Resource?',
+          question: 'Co je to „důkaz prací" - PoR?',
           answer: [
-            'Proof of Resource is the process that measures a Vault’s ability to store and retrieve data chunks. A User’s computer receives a score based on its CPU speed, bandwidth availability, disk space and time online.',
-            'Proof of Resource in the SAFE Network uses a mechanism similar to a Zero Knowledge Proof. The checking mechanism does not need to know what data is being checked—it simply needs to know that the correct data is being held and accurately.'
+            'Důkaz prací (Proof of Resource) je proces, který hodnotí schopnosti každého Vaultu uložit a odeslat danou část dat. Počítač uživatele získá skóra, které závisí na CPU výkonu, dostupné rychlosti připojení, dostupné volné místo a čas po jaký je Vault online.',
+            'Důkaz prací na SafeNetwork používá mechanismus podobný „Zero Knowledge Proof". Kontrolní mechanismus nepotřebuje znát jaká konkrétní data jsou kontrolována, ale jen jednoduše, zda se uloží a zobrazí správně.'
           ]
         },
         {
-          question: 'What is self&#8209;encryption?',
+          question: 'Co je to Auto&#8209;šifrování?',
           answer: [
-            'Self-encryption is the way in which a piece of data is split and then each chunk is encrypted using the other pieces of that same piece of data. It is a crucial process in the SAFE Network and ensures that the data is unrecognisable and resistant to decryption—even in the event of an encryption algorithm being compromised.',
-            'All data is self-encrypted before it is reaches the SAFE Network. The process is automatic and happens instantaneously.',
-            'As data is saved to a User\'s virtual hard drive, it is broken up into a minimum of three chunks, [hashed](https://en.wikipedia.org/wiki/Hash_function) and then encrypted. To further obfuscate the data, every chunk is passed through an [XOR](https://en.wikipedia.org/wiki/Exclusive_or) function using the hashes of other chunks. Each chunk is then broken up and key value pairs are added to a table in the Users account, called a data map. The data map contains the locations of each chunk that makes up the file. The data map, with hashes before and after encryption, is used when retrieving and decoding the User\'s data, as the encryption process is non-reversible.',
-            'This entire process takes place on the Client (i.e. the User\'s computer) so that data is always encrypted on the network and only Users with the correct credentials can decrypt the file. This also means that passwords can never be stolen from the network as they never pass beyond the Users computer. For additional security the data map is also run through the self-encryption process.',
-            '[Watch a Video Explainer](https://youtu.be/Jnvwv4z17b4)'
+            'Auto-šifrování je způsob, při kterém je každý soubor nejdříve rozdělen a poté, každý kousek dál zvlášť zašifrován, použitím ostatních dílů dat původního souboru. To je klíčová úloha v SafeNetwork, která zajistí, že data jsou nerozpoznatelná a odolná vůči dešifrování, dokonce ikdyž šifrovaný algoritmus byl kompromitován.',
+            'Všechna data jsou auto-šifrována ještě předtím, než jsou odeslána do SafeNetwork. Proces proběhne okamžitě a automaticky.',
+            'Než se soubor uloží na virtuální disk v SafeNetwork, je rozdělen minimálně na 3 části, [zhašován](https://en.wikipedia.org/wiki/Hash_function) a poté zašifrován. Pro další zvýšení úrovně zabezpečení dat, je každý kousek těchto dat poslán přes [XOR](https://en.wikipedia.org/wiki/Exclusive_or) funkci, která použije haše dalších dílu dat. Každý kousek dat je poté rozdělen, aby klíčové párové hodnoty byly přidány do tabulky účtu uživatele, zvané datová mapa. Datová mapa obsahuje umístění každého dílu dat, které dohromady opět vytvoří původní soubor. Tato datová mapa s haši před a po zašifrování, je použita při požadavku na dekódování uživatelových dat, jelikož proces zašifrování je nereverzibilní - tedy nejde stejnou cestou v opačném pořadí obnovit původní soubor.',
+            'Tento celý proces probíhá v rámci klienta (program na počítači uživatele), takže data na síti jsou vždy šifrovaná a pouze uživatel se správnými přístupovými údaji může soubor dešifrovat. To také znamená, že heslo nemůže být nikdy ukradeno ze sítě, jelikož nikdy neopustí počítač uživatele. Pro další stupěň zabezpečení, je datová mapa také chráněna procesem auto-šifrování.',
+            '[Podívej se na video s vysvětlením](https://youtu.be/Jnvwv4z17b4)'
           ]
         },
         {
